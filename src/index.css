@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.margin-space {
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .margin-space {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .margin-space {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
