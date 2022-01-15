@@ -7,6 +7,31 @@
     margin-right: 12.5rem;
 }
 
+.apply {
+    background: linear-gradient(90deg, #779dff 0.83%, #287fff 99.17%);
+}
+
+.memAlum {
+    width: 356px;
+    height: 462px;
+    background: linear-gradient(
+            143.93deg,
+            rgba(238, 147, 180, 0.9) -0.48%,
+            rgba(245, 108, 108, 0.9) 100%
+        ),
+        url(https://via.placeholder.com/356x462);
+}
+
+.fancy {
+    background: linear-gradient(90deg, #f56c6c, #ee93b4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-bg {
+    background-color: #1e1e28;
+}
+
 @media screen and (max-width: 768px) {
     .margin-space {
         margin-left: 0;

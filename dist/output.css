@@ -507,6 +507,35 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -519,12 +548,56 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-height: 100vh;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -535,26 +608,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-around;
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
-.bg-blue-200 {
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.from-blue-200 {
-  --tw-gradient-from: #bfdbfe;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(191 219 254 / 0));
-}
-
-.to-blue-600 {
-  --tw-gradient-to: #2563eb;
+.p-7 {
+  padding: 1.75rem;
 }
 
 .px-4 {
@@ -567,9 +646,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-3xl {
@@ -577,32 +695,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.font-black {
-  font-weight: 900;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .text-gray-500 {
@@ -610,9 +713,45 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .margin-space {
   margin-left: 12.5rem;
   margin-right: 12.5rem;
+}
+
+.apply {
+  background: linear-gradient(90deg, #779dff 0.83%, #287fff 99.17%);
+}
+
+.memAlum {
+  width: 356px;
+  height: 462px;
+  background: linear-gradient(
+            143.93deg,
+            rgba(238, 147, 180, 0.9) -0.48%,
+            rgba(245, 108, 108, 0.9) 100%
+        ),
+        url(https://via.placeholder.com/356x462);
+}
+
+.fancy {
+  background: linear-gradient(90deg, #f56c6c, #ee93b4);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-bg {
+  background-color: #1e1e28;
 }
 
 @media screen and (max-width: 768px) {
