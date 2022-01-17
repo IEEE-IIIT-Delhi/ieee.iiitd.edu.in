@@ -20,7 +20,7 @@
                         <div class="flex items-center">
                             <a href="index.html">
                                 <img
-                                    src="https://via.placeholder.com/100x100"
+                                    src="./assets/index/logo.png"
                                     alt="logo"
                                     class="h-12"
                                 />
@@ -55,7 +55,7 @@
                                 <p class="text-2xl">Join our team</p>
                                 <a href="#join">
                                     <button
-                                        class="apply rounded-lg border-1 px-9 py-2 leading-7 text-xl text-white"
+                                        class="fancyBtn rounded-lg border-1 px-9 py-2 leading-7 text-xl text-white"
                                     >
                                         apply
                                     </button>
@@ -64,9 +64,9 @@
                         </div>
                         <div>
                             <img
-                                src="https://via.placeholder.com/633x633"
+                                src="./assets/index/hero-img.png"
                                 alt="home"
-                                class="rounded-lg"
+                                class="heroImg rounded-lg"
                             />
                         </div>
                     </div>
@@ -124,14 +124,110 @@
                 </div>
             </section>
             <!-- events -->
-            <section id="events"></section>
+            <section id="events" class="min-h-screen">
+                <div class="container mx-auto mt-28">
+                    <div class="flex flex-col">
+                        <div class="flex mx-auto">
+                            <h1 class="fancyEvent text-5xl font-bold">
+                                events.
+                            </h1>
+                            &nbsp;&nbsp;
+                            <h1 class="text-5xl font-bold">for everyone.</h1>
+                        </div>
+                        <br /><br /><br /><br />
+                        <div class="flex flex-wrap justify-around">
+                            <div
+                                class="eventsCard flex flex-col space-y-5 rounded-xl border-2 p-5"
+                            >
+                                <img
+                                    src="./assets/index/slash-event.png"
+                                    alt=""
+                                    class="eventsImg rounded-lg"
+                                />
+                                <h1 class="text-xl font-bold">
+                                    12 October 2021
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor ab eveniet minima
+                                    impedit consectetur
+                                </p>
+                                <a href="" class="text-center">
+                                    <button
+                                        class="fancyBtn px-10 py-2 rounded-lg text-white font-semibold"
+                                    >
+                                        register
+                                    </button>
+                                </a>
+                            </div>
+                            <div
+                                class="eventsCard flex flex-col space-y-5 rounded-xl border-2 p-5"
+                            >
+                                <img
+                                    src="./assets/index/slash-event.png"
+                                    alt=""
+                                    class="eventsImg rounded-lg"
+                                />
+                                <h1 class="text-xl font-bold">
+                                    12 October 2021
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor ab eveniet minima
+                                    impedit consectetur
+                                </p>
+                                <a href="" class="text-center">
+                                    <button
+                                        class="fancyBtn px-10 py-2 rounded-lg text-white font-semibold"
+                                    >
+                                        register
+                                    </button>
+                                </a>
+                            </div>
+                            <div
+                                class="eventsCard flex flex-col space-y-5 rounded-xl border-2 p-5"
+                            >
+                                <img
+                                    src="./assets/index/slash-event.png"
+                                    alt=""
+                                    class="eventsImg rounded-lg"
+                                />
+                                <h1 class="text-xl font-bold">
+                                    12 October 2021
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor ab eveniet minima
+                                    impedit consectetur
+                                </p>
+                                <a href="" class="text-center">
+                                    <button
+                                        class="fancyClose px-10 py-2 rounded-lg font-semibold"
+                                    >
+                                        closed
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <br /><br /><br />
+                        <div
+                            class="flex items-center justify-center text-xl font-semibold"
+                        >
+                            <a href="./events.html"> view all </a>
+                            <i class="material-icons text-3xl">
+                                keyboard_arrow_right
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- partners -->
             <section id="partners" class="min-h-screen">
-                <div class="container mx-auto mt-28">
+                <div class="container mx-auto">
                     <div class="flex flex-col">
                         <h1 class="text-5xl font-bold">our partners</h1>
                         <h1 class="text-5xl font-bold">from the industry</h1>
-                        <br><br><br>
+                        <br /><br /><br />
                         <div class="flex flex-wrap justify-between">
                             <img
                                 src="https://via.placeholder.com/200x200"
@@ -202,7 +298,9 @@
                             </a>
                         </div>
                         <div class="flex flex-col justify-center">
-                            <h1 class="fancy text-4xl font-bold">Join Us.</h1>
+                            <h1 class="fancyJoin text-4xl font-bold">
+                                Join Us.
+                            </h1>
                             <h2 class="text-4xl font-bold w-1/2">
                                 Become a part of the exclusive community.
                             </h2>
@@ -239,13 +337,14 @@
 
         <!-- footer -->
         <footer class="footer-bg">
-            <div class="container mx-auto my-10">
-                <div class="flex flex-row justify-between text-white">
-                    <div class="flex flex-row justify-between w-1/3">
+            <div class="container mx-auto my-14">
+                <div class="flex flex-row justify-between text-white mx-auto">
+                    <div class="flex flex-row justify-around w-1/4 mx-auto">
                         <div class="flex w-1/2">
                             <img
-                                src="https://via.placeholder.com/100x100"
+                                src="./assets/index/logo.png"
                                 alt="logo"
+                                class="footerLogo"
                             />
                         </div>
                         <div class="flex flex-col justify-center w-1/2">

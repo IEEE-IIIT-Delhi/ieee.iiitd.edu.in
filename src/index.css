@@ -7,7 +7,12 @@
     margin-right: 12.5rem;
 }
 
-.apply {
+.heroImg {
+    width: 633.12px;
+    height: 633px;
+}
+
+.fancyBtn {
     background: linear-gradient(90deg, #779dff 0.83%, #287fff 99.17%);
 }
 
@@ -19,17 +24,43 @@
             rgba(238, 147, 180, 0.9) -0.48%,
             rgba(245, 108, 108, 0.9) 100%
         ),
-        url(https://via.placeholder.com/356x462);
+        url("../src/assets/index/ieee_dsc.jpg");
 }
 
-.fancy {
+.fancyJoin {
     background: linear-gradient(90deg, #f56c6c, #ee93b4);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.fancyEvent {
+    background: linear-gradient(90deg, #7987ff, #769cff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.eventsCard {
+    width: 280px;
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+        0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+}
+
+.fancyClose {
+    background-color: #e7ecf2;
+}
+
+.eventsImg {
+    width: 250px;
+    height: 150px;
+}
+
 .footer-bg {
     background-color: #1e1e28;
+}
+
+.footerLogo {
+    width: 85px;
+    height: 74px;
 }
 
 @media screen and (max-width: 768px) {
