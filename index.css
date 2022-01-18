@@ -91,6 +91,13 @@
     max-height: 180px;
 }
 
+.partnerImg {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .footer-bg {
     background-color: #1e1e28;
 }
@@ -107,11 +114,29 @@
     } */
 
     .aboutCont {
-        height: 100vh;
+        height: 90vh;
     }
 
     .aboutCont div div {
         margin-bottom: 20px;
+    }
+
+    .eventsCard {
+        margin: 20px;
+        box-shadow: 27px 27px 54px #cccccc, -27px -27px 54px #ffffff;
+    }
+
+    #events, #partners {
+        padding-bottom: 30px;
+    }
+
+
+
+    .partnerImg {
+        width: 100%;
+        height: auto;
+        max-width: 100px;
+        max-height: 100px;
     }
 }
 
