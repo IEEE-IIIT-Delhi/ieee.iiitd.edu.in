@@ -113,6 +113,11 @@
         margin-right: 0;
     } */
 
+    body section {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
     .aboutCont {
         height: 90vh;
     }
@@ -129,8 +134,6 @@
     #events, #partners {
         padding-bottom: 30px;
     }
-
-
 
     .partnerImg {
         width: 100%;
