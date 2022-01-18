@@ -1,6 +1,10 @@
-/*
-! tailwindcss v3.0.15 | MIT License | https://tailwindcss.com
-*/
+@import url("https://use.typekit.net/nzg5mjs.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
+
+/* ! tailwindcss v3.0.15 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -423,7 +427,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -468,305 +472,323 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
+@media (min-width: 640px){
+  .container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
+@media (min-width: 1024px){
+  .container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
+@media (min-width: 1280px){
+  .container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
+@media (min-width: 1536px){
+  .container{
     max-width: 1536px;
   }
 }
 
-.mx-auto {
+.m-10{
+  margin: 2.5rem;
+}
+
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-5 {
+.my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-.my-32 {
+.my-32{
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.my-14 {
+.my-14{
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
 }
 
-.mx-16 {
+.mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
 }
 
-.-mt-20 {
-  margin-top: -5rem;
-}
-
-.mt-28 {
+.mt-28{
   margin-top: 7rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.ml-10{
+  margin-left: 2.5rem;
 }
 
-.ml-16 {
+.mb-28{
+  margin-bottom: 7rem;
+}
+
+.ml-16{
   margin-left: 4rem;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.h-12 {
+.h-12{
   height: 3rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.w-full{
+  width: 100%;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-2\/5 {
+.w-2\/5{
   width: 40%;
 }
 
-.w-1\/2 {
+.w-1\/2{
   width: 50%;
 }
 
-.w-1\/4 {
+.w-1\/4{
   width: 25%;
 }
 
-.w-1\/3 {
+.w-1\/3{
   width: 33.333333%;
 }
 
-.w-1\/5 {
+.w-1\/5{
   width: 20%;
 }
 
-.flex-auto {
+.flex-auto{
   flex: 1 1 auto;
 }
 
-.flex-row {
+.flex-row{
   flex-direction: row;
 }
 
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.flex-wrap {
+.flex-wrap{
   flex-wrap: wrap;
 }
 
-.items-end {
+.items-end{
   align-items: flex-end;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-end {
+.justify-end{
   justify-content: flex-end;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.justify-between {
+.justify-between{
   justify-content: space-between;
 }
 
-.justify-around {
+.justify-around{
   justify-content: space-around;
 }
 
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+.space-x-7 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.rounded-lg {
+.space-x-5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded-lg{
   border-radius: 0.5rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.rounded-xl {
+.rounded-xl{
   border-radius: 0.75rem;
 }
 
-.border-2 {
-  border-width: 2px;
+.rounded-full{
+  border-radius: 9999px;
 }
 
-.border-gray-500 {
+.border-gray-500{
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
-.bg-indigo-100 {
+.bg-indigo-100{
   --tw-bg-opacity: 1;
   background-color: rgb(224 231 255 / var(--tw-bg-opacity));
 }
 
-.bg-white {
+.bg-slate-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-5 {
+.p-5{
   padding: 1.25rem;
 }
 
-.p-7 {
+.p-7{
   padding: 1.75rem;
 }
 
-.px-4 {
+.px-4{
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.py-2 {
+.py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.px-9 {
+.px-9{
   padding-left: 2.25rem;
   padding-right: 2.25rem;
 }
 
-.py-20 {
+.py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-.px-10 {
+.px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
 
-.px-2 {
+.px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
-.text-center {
+.text-center{
   text-align: center;
 }
 
-.text-right {
+.text-right{
   text-align: right;
 }
 
-.text-8xl {
+.text-8xl{
   font-size: 6rem;
   line-height: 1;
 }
 
-.text-4xl {
+.text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
-.text-2xl {
+.text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.text-xl {
+.text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-5xl {
+.text-5xl{
   font-size: 3rem;
   line-height: 1;
 }
 
-.text-sm {
+.text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-3xl {
+.text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.font-bold {
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.font-bold{
   font-weight: 700;
 }
 
-.font-semibold {
+.font-semibold{
   font-weight: 600;
 }
 
-.leading-7 {
+.leading-7{
   line-height: 1.75rem;
 }
 
-.text-gray-500 {
+.text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black {
+.text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+* {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
 }
 
 .margin-space {
@@ -774,9 +796,33 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 12.5rem;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.heading {
+  font-family: Sofia-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 .heroImg {
-  width: 633.12px;
-  height: 633px;
+  width: 100%;
+  height: 100%;
+  max-width: 633.12px;
+  max-height: 633px;
+}
+
+.aboutCont {
+  height: 40vh;
+}
+
+.aboutIcon {
+  width: 100%;
+  height: auto;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .fancyBtn {
@@ -784,8 +830,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .memAlum {
-  width: 356px;
-  height: 462px;
+  width: 100%;
+  height: auto;
+  max-width: 356px;
+  max-height: 462px;
   background: linear-gradient(
             143.93deg,
             rgba(238, 147, 180, 0.9) -0.48%,
@@ -809,9 +857,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .eventsCard {
-  width: 280px;
-  box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
-        0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 37px 37px 74px #cccccc, -37px -37px 74px #ffffff;
+  background-color: white;
 }
 
 .fancyClose {
@@ -819,8 +868,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .eventsImg {
-  width: 250px;
-  height: 150px;
+  width: 100%;
+  height: auto;
+  max-width: 290px;
+  max-height: 180px;
 }
 
 .footer-bg {
@@ -833,15 +884,65 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media screen and (max-width: 768px) {
-  .margin-space {
-    margin-left: 0;
-    margin-right: 0;
+  /* .margin-space {
+        margin-left: 0;
+        margin-right: 0;
+    } */
+
+  .aboutCont {
+    height: 100vh;
+  }
+
+  .aboutCont div div {
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .margin-space {
-    margin-left: 5rem;
-    margin-right: 5rem;
+  /* .margin-space {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    } */
+
+  /* .aboutCont {
+        height: 100vh;
+    } */
+}
+
+@media (min-width: 640px){
+  .sm\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:min-h-screen{
+    min-height: 100vh;
+  }
+
+  .md\:w-3\/4{
+    width: 75%;
+  }
+
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
+  .md\:w-2\/5{
+    width: 40%;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
