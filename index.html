@@ -13,10 +13,10 @@
     </head>
     <body class="flex flex-col md:min-h-screen">
         <!-- header -->
-        <header>
-            <nav>
+        <header class="header">
+            <nav class="nav">
                 <div class="container mx-auto my-5">
-                    <div class="flex justify-between items-center px-4 py-2">
+                    <div class="flex justify-between items-center px-4 md:px-0 py-2">
                         <div class="flex items-center">
                             <a href="index.html">
                                 <img
@@ -27,13 +27,13 @@
                             </a>
                         </div>
                         <div class="flex items-center">
-                            <a href="./events.html" class="heading px-4 py-2"
+                            <a href="./events.html" class="heading2 px-4 py-2"
                                 >events</a
                             >
-                            <a href="./members.html" class="heading px-4 py-2"
+                            <a href="./members.html" class="heading2 px-4 py-2"
                                 >members</a
                             >
-                            <a href="#contact" class="heading px-4 py-2"
+                            <a href="#contact" class="heading2 px-4 md:px-0 md:pl-4 py-2"
                                 >contact</a
                             >
                         </div>
@@ -45,10 +45,10 @@
         <!-- main -->
         <main class="flex-auto">
             <!-- home -->
-            <section id="home" class="md:min-h-screen">
+            <section id="home" class="md:min-h-fit mt-40 mb-48">
                 <div class="container mx-auto">
                     <div
-                        class="flex flex-col md:flex-row justify-around md:justify-between mx-auto my-14 md:my-32 space-y-10"
+                        class="flex flex-col md:flex-row justify-around md:justify-between mx-auto my-14 md:my-18 space-y-10"
                     >
                         <div class="flex justify-center flex-col">
                             <h1 class="heading text-5xl md:text-8xl font-bold">
@@ -58,16 +58,16 @@
                                 IIIT Delhi
                             </h1>
                             <h2
-                                class="heading text-3xl md:text-4xl font-bold text-gray-500"
+                                class="heading2 text-3xl md:text-4xl font-bold text-gray-500"
                             >
                                 student branch
                             </h2>
                             <br /><br /><br /><br />
-                            <div class="flex flex-row space-x-7">
+                            <div class="flex flex-row space-x-7 items-center">
                                 <p class="text-2xl">Join our team</p>
                                 <a href="#join">
                                     <button
-                                        class="fancyBtn rounded-lg border-1 px-9 py-2 leading-7 text-xl text-white font-semibold"
+                                        class="fancyBtn heading2 rounded-lg border-1 px-9 py-3 leading-7 text-xl text-white"
                                     >
                                         apply
                                     </button>
@@ -86,15 +86,14 @@
             </section>
             <!-- about -->
             <section id="about" class="bg-indigo-100">
-                <div class="container mx-auto aboutCont">
+                <div class="container mx-auto aboutCont flex md:items-center">
                     <div
-                        class="flex flex-col md:flex-row justify-center md:justify-between items-center py-20"
+                        class="flex flex-col md:flex-row justify-center md:justify-between md:items-center"
                     >
-                        <div class="flex flex-col w-full md:w-3/4">
-                            <h1 class="heading text-5xl md:text-7xl font-bold">
+                        <div class="flex flex-col w-full md:w-1/2 space-y-16 justify-center">
+                            <h1 class="heading text-5xl md:text-7xl font-bold flex items-center">
                                 about us
                             </h1>
-                            <br /><br /><br />
                             <div
                                 class="flex flex-row justify-between w-full md:w-2/5"
                             >
@@ -114,7 +113,6 @@
                                     class="aboutIcon rounded-full"
                                 />
                             </div>
-                            <br />
                             <p class="text-sm text-gray-500">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit.
@@ -133,6 +131,13 @@
                                 ipsam. Atque, vitae sapiente? Lorem ipsum dolor
                                 sit amet consectetur adipisicing elit. Lorem
                                 ipsum dolor sit amet consectetur adipisicing
+                                elit. <br><br>
+                                Sunt quia ullam
+                                similique, hic quae nam repellendus ab alias vel
+                                officia, natus laborum sint doloribus a aliquam
+                                ipsam. Atque, vitae sapiente? Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Lorem
+                                ipsum dolor sit amet consectetur adipisicing
                                 elit.
                             </p>
                         </div>
@@ -140,10 +145,10 @@
                 </div>
             </section>
             <!-- events -->
-            <section id="events" class="md:min-h-screen bg-slate-100">
+            <section id="events" class="md:min-h-full bg-slate-100">
                 <div class="container mx-auto">
-                    <div class="flex flex-col">
-                        <div class="flex mx-auto mt-28">
+                    <div class="flex flex-col py-32 space-y-28">
+                        <div class="flex mx-auto">
                             <h1
                                 class="fancyEvent heading text-3xl md:text-7xl font-bold"
                             >
@@ -154,7 +159,6 @@
                                 for everyone.
                             </h1>
                         </div>
-                        <br /><br /><br /><br />
                         <div class="flex flex-wrap justify-around">
                             <div
                                 class="eventsCard flex flex-col space-y-5 rounded-xl p-5"
@@ -172,9 +176,10 @@
                                     adipisicing elit. Dolor ab eveniet minima
                                     impedit consectetur
                                 </p>
+                                <br />
                                 <a href="" class="text-center">
                                     <button
-                                        class="fancyBtn px-10 py-2 rounded-lg text-white font-semibold"
+                                        class="fancyBtn heading2 px-10 py-2 rounded-lg text-white"
                                     >
                                         register
                                     </button>
@@ -196,9 +201,10 @@
                                     adipisicing elit. Dolor ab eveniet minima
                                     impedit consectetur
                                 </p>
+                                <br />
                                 <a href="" class="text-center">
                                     <button
-                                        class="fancyBtn px-10 py-2 rounded-lg text-white font-semibold"
+                                        class="fancyBtn heading2 px-10 py-2 rounded-lg text-white"
                                     >
                                         register
                                     </button>
@@ -220,16 +226,16 @@
                                     adipisicing elit. Dolor ab eveniet minima
                                     impedit consectetur
                                 </p>
+                                <br />
                                 <a href="" class="text-center">
                                     <button
-                                        class="fancyClose px-10 py-2 rounded-lg font-semibold"
+                                        class="fancyClose heading2 px-10 py-2 rounded-lg"
                                     >
                                         closed
                                     </button>
                                 </a>
                             </div>
                         </div>
-                        <br /><br /><br />
                         <div
                             class="flex items-center justify-center text-xl font-semibold"
                         >
@@ -242,9 +248,9 @@
                 </div>
             </section>
             <!-- partners -->
-            <section id="partners" class="md:min-h-screen">
+            <section id="partners" class="md:min-h-full">
                 <div class="container mx-auto">
-                    <div class="flex flex-col mt-16 md:mt-28">
+                    <div class="flex flex-col mt-16 md:my-28">
                         <h1 class="heading text-3xl md:text-7xl font-bold">
                             our partners
                         </h1>
@@ -303,7 +309,7 @@
             <section id="contact" class="footer-bg">
                 <div class="container mx-auto">
                     <div
-                        class="flex flex-col md:flex-row text-white py-20 justify-between md:ml-10 space-y-5"
+                        class="flex flex-col md:flex-row text-white py-20 justify-between md:ml-10 w-full space-y-5"
                     >
                         <a href="">
                             <div
@@ -323,12 +329,13 @@
                                 </div>
                             </div>
                         </a>
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col">
                             <h1
-                                class="fancyJoin heading text-2xl md:text-4xl font-bold"
+                                class="fancyJoin heading text-2xl md:text-4xl font-bold leading-10"
                             >
                                 Join Us.
                             </h1>
+                            <br>
                             <h2
                                 class="heading text-2xl md:text-4xl font-bold w-full md:w-1/2"
                             >
@@ -353,7 +360,7 @@
                             <br /><br />
                             <a href="">
                                 <button
-                                    class="bg-white px-10 py-2 text-black rounded-lg"
+                                    class="heading2 applyBtn bg-white px-10 py-2 text-black rounded-lg"
                                 >
                                     apply
                                 </button>
@@ -374,7 +381,7 @@
                     <div
                         class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5 w-full md:w-1/4 md:mx-auto"
                     >
-                        <div class="flex pt-4">
+                        <div class="flex pt-4 text-white">
                             <img
                                 src="./assets/index/logowhite.png"
                                 alt="logo"
