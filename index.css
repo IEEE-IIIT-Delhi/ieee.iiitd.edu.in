@@ -89,6 +89,32 @@
     -webkit-text-fill-color: transparent;
 }
 
+.fancyMembers {
+    background: linear-gradient(90deg, #CF9BF8, #8D97ED);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pic {
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #17132D;
+}
+
+.pos {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #17132D;
+    opacity: 0.6;
+}
+
 .eventsCard {
     width: 100%;
     max-width: 320px;
