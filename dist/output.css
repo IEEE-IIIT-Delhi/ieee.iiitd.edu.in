@@ -525,16 +525,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 3.5rem;
 }
 
-.my-24{
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -564,8 +554,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 4rem;
 }
 
+.mt-32{
+  margin-top: 8rem;
+}
+
+.mb-24{
+  margin-bottom: 6rem;
+}
+
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .h-12{
@@ -578,6 +580,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-auto{
   flex: 1 1 auto;
+}
+
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -614,6 +620,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-around{
   justify-content: space-around;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-x-28{
@@ -672,16 +682,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-gray-500{
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
-.border-black{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-gray-200{
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .bg-slate-100{
@@ -846,6 +846,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
   height: 7.5rem;
   background-color: #fff;
+  z-index: 10;
 }
 
 .heading,
@@ -978,6 +979,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 85px;
 }
 
+.memCard {
+  /* margin: 1.5rem 10rem; */
+}
+
+.memPgImg {
+  width: 229px;
+}
+
+.memPgTxt {
+  width: 654px;
+}
+
 @media screen and (max-width: 768px) {
   /* .margin-space {
         margin-left: 0;
@@ -1053,6 +1066,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 7rem;
   }
 
+  .md\:my-24{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
   .md\:ml-10{
     margin-left: 2.5rem;
   }
@@ -1097,6 +1115,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-2\/5{
     width: 40%;
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row{

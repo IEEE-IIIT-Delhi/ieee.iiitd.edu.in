@@ -27,6 +27,7 @@
     width: 100%;
     height: 7.5rem;
     background-color: #fff;
+    z-index: 10;
 }
 
 .heading,
@@ -154,6 +155,18 @@
 .footerLogo {
     width: 85px;
     height: 85px;
+}
+
+.memCard {
+    /* margin: 1.5rem 10rem; */
+}
+
+.memPgImg {
+    width: 229px;
+}
+
+.memPgTxt {
+    width: 654px;
 }
 
 @media screen and (max-width: 768px) {
