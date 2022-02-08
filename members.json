@@ -1,311 +1,326 @@
-{
-    "rep" : {
-        "0" : {
-            "name": "Prof. S. S. Jamuar",
-            "pos": "Faculty Coordinator",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
+[
+    {
+        "name": "Prof. S. S. Jamuar",
+        "pos": "Faculty Coordinator",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
         },
-        "1" : {
-            "name": "Dr. Shobha Sundar Ram",
-            "pos": "Head of Department, ECE",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "2" : {
-            "name": "Dr. Rajiv Ratn Shah",
-            "pos": "CompSoc Faculty Coordinator",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        }
+        "desc": "lorem",
+        "a": "./members/1.html"
     },
-    "core": {
-        "3" : {
-            "name": "Prakhar Prasad",
-            "pos": "Chairperson",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
+    {
+        "name": "Dr. Shobha Sundar Ram",
+        "pos": "Head of Department, ECE",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
         },
-        "4" : {
-            "name": "Ansh Arora",
-            "pos": "Vice Chairperson",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "5" : {
-            "name": "Gursimran Kaur",
-            "pos": "Secretary / Coordinator",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "6" : {
-            "name": "Garmit Pant",
-            "pos": "Treasurer / Coordinator",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "7" : {
-            "name": "Mihir Chaturvedi",
-            "pos": "WebMaster",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "8" : {
-            "name": "Daksh T",
-            "pos": "Industrial Outreach",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "9" : {
-            "name": "Sachleen Kaur",
-            "pos": "Design Head",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "10" : {
-            "name": "Shragvi Sidarth Jha",
-            "pos": "Operations Head",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "11" : {
-            "name": "Niranjan Sundarajan",
-            "pos": "Events Head",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        }
+        "desc": "lorem",
+        "a": "./members/2.html"
     },
-    "wie": {
-        "12" : {
-            "name": "Meetakshi Setiya",
-            "pos": "WiE Chairperson / Coordinator",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
+    {
+        "name": "Dr. Rajiv Ratn Shah",
+        "pos": "CompSoc Faculty Coordinator",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
         },
-        "13" : {
-            "name": "Amolika Bansal",
-            "pos": "Vice Chairperson",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "14" : {
-            "name": "Sunishka Sharma",
-            "pos": "Secretary",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        }
+        "desc": "lorem",
+        "a": "./members/3.html"
     },
-    "compsoc": {
-        "15" : {
-            "name": "Rohan Dhar",
-            "pos": "CompSoc Chairperson",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
+    {
+        "name": "Prakhar Prasad",
+        "pos": "Chairperson",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
         },
-        "16" : {
-            "name": "Abhik S Basu",
-            "pos": "Vice Chairperson",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        }
+        "desc": "lorem",
+        "a": "./members/4.html"
     },
-    "exec": {
-        "17" : {
-            "name": "Raghav Sahni",
-            "pos": "CMO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
+    {
+        "name": "Ansh Arora",
+        "pos": "Vice Chairperson",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
         },
-        "18" : {
-            "name": "Tejdeep Ch",
-            "pos": "CO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "19" : {
-            "name": "Anusha Tiwari",
-            "pos": "CMO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "20" : {
-            "name": "Ritwick Pal",
-            "pos": "CMO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "21" : {
-            "name": "Jogith S Chandran",
-            "pos": "CO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "22" : {
-            "name": "Samyak Jain",
-            "pos": "CMO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "23" : {
-            "name": "Mohit Jain",
-            "pos": "CMO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        },
-        "24" : {
-            "name": "Aayush Kapoor",
-            "pos": "CO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        }
+        "desc": "lorem",
+        "a": "./members/5.html"
     },
-    "alum": {
-        "0" : {
-            "name": "Max",
-            "pos": "CMO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
+    {
+        "name": "Gursimran Kaur",
+        "pos": "Secretary / Coordinator",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
         },
-        "1" : {
-            "name": "Jack",
-            "pos": "CO",
-            "img": "https://via.placeholder.com/100x100",
-            "social": {
-                "fb": "https://www.facebook.com/",
-                "tw": "https://twitter.com/",
-                "wb": "#"
-            },
-            "desc": "lorem"
-        }
+        "desc": "lorem",
+        "a": "./members/6.html"
+    },
+    {
+        "name": "Garmit Pant",
+        "pos": "Treasurer / Coordinator",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/7.html"
+    },
+    {
+        "name": "Mihir Chaturvedi",
+        "pos": "WebMaster",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/8.html"
+    },
+    {
+        "name": "Daksh T",
+        "pos": "Industrial Outreach",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/9.html"
+    },
+    {
+        "name": "Sachleen Kaur",
+        "pos": "Design Head",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/10.html"
+    },
+    {
+        "name": "Shragvi Sidarth Jha",
+        "pos": "Operations Head",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/11.html"
+    },
+    {
+        "name": "Niranjan Sundarajan",
+        "pos": "Events Head",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/12.html"
+    },
+    {
+        "name": "Meetakshi Setiya",
+        "pos": "WiE Chairperson / Coordinator",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/13.html"
+    },
+    {
+        "name": "Amolika Bansal",
+        "pos": "Vice Chairperson",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/14.html"
+    },
+    {
+        "name": "Sunishka Sharma",
+        "pos": "Secretary",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/15.html"
+    },
+    {
+        "name": "Rohan Dhar",
+        "pos": "CompSoc Chairperson",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/16.html"
+    },
+    {
+        "name": "Abhik S Basu",
+        "pos": "Vice Chairperson",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/17.html"
+    },
+    {
+        "name": "Raghav Sahni",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/18.html"
+    },
+    {
+        "name": "Tejdeep Ch",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/19.html"
+    },
+    {
+        "name": "Anusha Tiwari",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/20.html"
+    },
+    {
+        "name": "Ritwick Pal",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/21.html"
+    },
+    {
+        "name": "Jogith S Chandran",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/22.html"
+    },
+    {
+        "name": "Samyak Jain",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/23.html"
+    },
+    {
+        "name": "Mohit Jain",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/24.html"
+    },
+    {
+        "name": "Aayush Kapoor",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/25.html"
+    },
+    {
+        "name": "Max",
+        "pos": "CMO",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/26.html"
+    },
+    {
+        "name": "Jack",
+        "pos": "CO",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/27.html"
     }
-}
+]
