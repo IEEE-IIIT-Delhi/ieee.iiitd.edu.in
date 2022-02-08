@@ -25,8 +25,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 7.5rem;
-    background-color: #fff;
+    height: 6.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(50px);
     z-index: 10;
 }
 
@@ -109,8 +111,8 @@
 }
 
 .pos {
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 30px;
     color: #17132D;
     opacity: 0.6;
@@ -167,6 +169,56 @@
 
 .memPgTxt {
     width: 654px;
+}
+
+.applyBtnTop{
+    padding-bottom: 17px;
+}
+
+.join{
+    margin-left: 5px;
+}
+
+.abouttxt{
+    color: #585B78;
+}
+
+.registerBtn{
+    padding-bottom: 12px;
+}
+
+.applyBtn{
+    padding-bottom: 15px;
+}
+
+.line{
+    margin-top:100px;
+    opacity: 0.3;
+}
+
+.topline{
+    margin-top: 50px;
+}
+
+#partners{
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+#contact{
+    padding-top: 50px;
+}
+
+.linejoin{
+    margin-top: 50px;
+}
+
+.aboutheading{
+    color: #17132d;
+}
+
+.membertitle{
+    margin-top: 75px;
 }
 
 @media screen and (max-width: 768px) {
