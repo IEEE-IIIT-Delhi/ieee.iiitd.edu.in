@@ -12,7 +12,7 @@ HTMLString = """
             rel="stylesheet"
         />
         <link rel="stylesheet" href="../dist/output.css" />
-        <title>IEEE IIITD Member - Jack</title>
+        <title>IEEE IIITD Member - {tname}</title>
     </head>
     <body class="flex flex-col md:min-h-screen">
         <!-- header -->
@@ -35,14 +35,12 @@ HTMLString = """
                             <a href="../events.html" class="heading2 px-4 py-2"
                                 >events</a
                             >
-                            <a href="../members.html" class="heading2 px-4 py-2"
+                            <a href="./members.html" class="heading2 px-4 py-2 md:px-0 md:pl-4"
                                 >members</a
                             >
-                            <a
-                                href="#contact"
-                                class="heading2 px-4 md:px-0 md:pl-4 py-2"
+                            <!-- <a href="#contact" class="heading2 px-4 md:px-0 md:pl-4 py-2"
                                 >contact</a
-                            >
+                            > -->
                         </div>
                     </div>
                 </div>
@@ -93,9 +91,9 @@ HTMLString = """
                                 <h1 class="heading text-3xl font-bold">
                                     Our Members and Alumni
                                 </h1>
-                                <br />
+                                
                                 <div
-                                    class="rounded-full border-1 py-2 px-2 flex justify-center items-center"
+                                    class="rounded-full border-1 py-2 px-2 flex justify-center items-center mt-7"
                                     style="background: #f8f8f870"
                                 >
                                     <i class="material-icons text-white">
@@ -104,20 +102,20 @@ HTMLString = """
                                 </div>
                             </div>
                         </a>
-                        <div class="flex flex-col">
+                        <div class="flex flex-col justify-center">
                             <h1
                                 class="fancyJoin heading text-2xl md:text-4xl font-bold leading-10"
                             >
                                 Join Us.
                             </h1>
-                            <br />
+                            
                             <h2
-                                class="heading text-2xl md:text-4xl font-bold w-full md:w-1/2"
+                                class="heading text-2xl md:text-4xl font-bold w-full md:w-1/2 mt-3"
                             >
                                 Become a part of the exclusive community.
                             </h2>
-                            <br /><br />
-                            <h3 class="font-bold">Perks</h3>
+                            
+                            <h3 class="font-bold mt-6">Perks</h3>
                             <ul class="text-gray-500">
                                 <li>
                                     Lorem ipsum dolor sit amet consectetur
@@ -132,17 +130,17 @@ HTMLString = """
                                     adipisicing elit.
                                 </li>
                             </ul>
-                            <br /><br />
+                            
                             <a href="">
                                 <button
-                                    class="heading2 applyBtn bg-white px-10 py-2 text-black rounded-lg"
+                                    class="heading2 applyBtn bg-white px-10 py-2 text-black rounded-lg mt-10"
                                 >
                                     apply
                                 </button>
                             </a>
                         </div>
                     </div>
-                    <hr class="border-gray-500 rounded-full mx-auto" />
+                    <hr class="border-gray-500 rounded-full mx-auto linejoin" />
                 </div>
             </section>
         </main>
@@ -158,7 +156,7 @@ HTMLString = """
                     >
                         <div class="flex pt-4 text-white">
                             <img
-                                src="../assets/index/logowhite.png"
+                                src="./assets/index/logowhite.png"
                                 alt="logo"
                                 class="footerLogo"
                             />
@@ -171,8 +169,8 @@ HTMLString = """
                             <h2 class="heading text-md font-bold text-gray-500">
                                 student branch
                             </h2>
-                            <br />
-                            <p class="text-sm text-gray-500">
+                            
+                            <p class="text-sm text-gray-500 mt-3">
                                 IIIT Delhi, Okhla Industrial, <br />
                                 Phase-III, New Delhi-110020
                             </p>
@@ -181,9 +179,7 @@ HTMLString = """
                     <div
                         class="flex flex-col md:flex-row md:justify-between w-full md:w-1/3 md:mx-auto"
                     >
-                        <div
-                            class="flex flex-col w-full md:w-1/2 md:mx-16 mb-5 md:mb-5"
-                        >
+                        <div class="flex flex-col w-full md:w-1/2 md:mx-16 mb-5 md:mb-5">
                             <h1 class="heading font-bold">Affiliations</h1>
                             <div
                                 class="flex flex-wrap md:flex-col space-x-5 md:space-x-0"
@@ -199,21 +195,11 @@ HTMLString = """
                             <div
                                 class="flex flex-wrap md:flex-col md:space-x-0"
                             >
-                                <a href="" class="pr-5 md:pr-0 text-gray-500"
-                                    >Instagram</a
-                                >
-                                <a href="" class="pr-5 md:pr-0 text-gray-500"
-                                    >Facebook</a
-                                >
-                                <a href="" class="pr-5 md:pr-0 text-gray-500"
-                                    >LinkedIn</a
-                                >
-                                <a href="" class="pr-5 md:pr-0 text-gray-500"
-                                    >YouTube</a
-                                >
-                                <a href="" class="pr-5 md:pr-0 text-gray-500"
-                                    >Twitter</a
-                                >
+                                <a href="" class="pr-5 md:pr-0 text-gray-500">Instagram</a>
+                                <a href="" class="pr-5 md:pr-0 text-gray-500">Facebook</a>
+                                <a href="" class="pr-5 md:pr-0 text-gray-500">LinkedIn</a>
+                                <a href="" class="pr-5 md:pr-0 text-gray-500">YouTube</a>
+                                <a href="" class="pr-5 md:pr-0 text-gray-500">Twitter</a>
                             </div>
                         </div>
                     </div>
@@ -224,14 +210,15 @@ HTMLString = """
                                 >ieee@iiitd.ac.in</a
                             >
                         </p>
-                        <br />
-                        <h1 class="heading font-bold">Graphic Identity</h1>
+                        
+                        <h1 class="heading font-bold mt-3">Graphic Identity</h1>
                     </div>
                 </div>
             </div>
         </footer>
     </body>
 </html>
+
 """
 
 f = open('members.json')
@@ -245,12 +232,13 @@ print("PROCESSING ...")
 # print(HTMLString.format(name = data[26]["name"]), pos = data[26]["pos"], img = data[26]["img"], desc = data[26]["desc"])
 for i in range(len(data)):
     f = open(BASE_DIR + str(i+1) + ".html", "w")
+    tname = data[i]["name"]
     sname = data[i]["name"]
     img = data[i]["img"]
     aname = data[i]["name"]
     name = data[i]["name"]
     pos = data[i]["pos"]
     desc = data[i]["desc"]
-    f.write(HTMLString.format(sname = sname, aname = aname, name = name, pos = pos, img = img, desc = desc))
+    f.write(HTMLString.format(tname = tname, sname = sname, aname = aname, name = name, pos = pos, img = img, desc = desc))
     f.close()
 print("PROCESS COMPLETED")
