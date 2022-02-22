@@ -84,11 +84,9 @@
 }
 
 .memAlum {
-    /* width: 100%; */
+    width: 100%;
     /* height: auto; */
     max-width: 356px;
-    width: 95%;
-    /* width: 356px; */
     height: 462px;
     /* max-height: 462px; */
     background: linear-gradient(
@@ -279,13 +277,9 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
-    /* .margin-space {
-        margin-left: 5rem;
-        margin-right: 5rem;
-    } */
-
-    /* .aboutCont {
-        height: 100vh;
-    } */
+@media screen and (max-width: 1280px) and (min-width: 748px){
+    .container{
+        width: 90%;
+        max-width: 896px;
+    }
 }

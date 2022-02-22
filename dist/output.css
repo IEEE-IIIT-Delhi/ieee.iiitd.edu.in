@@ -525,14 +525,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 3.5rem;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-10{
@@ -603,12 +603,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
+.w-11\/12{
+  width: 91.666667%;
+}
+
 .w-full{
   width: 100%;
 }
 
+.w-1\/4{
+  width: 25%;
+}
+
 .w-60{
   width: 15rem;
+}
+
+.min-w-\[128px\]{
+  min-width: 128px;
+}
+
+.min-w-fit{
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.max-w-xl{
+  max-width: 36rem;
+}
+
+.max-w-lg{
+  max-width: 32rem;
 }
 
 .flex-auto{
@@ -659,6 +685,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2.5rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
 .gap-x-28{
   -moz-column-gap: 7rem;
        column-gap: 7rem;
@@ -698,12 +732,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
-}
-
-.space-y-20 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-24 > :not([hidden]) ~ :not([hidden]){
@@ -801,6 +829,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pl-4{
   padding-left: 1rem;
 }
@@ -821,14 +854,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: right;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-2xl{
@@ -839,26 +882,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold{
@@ -965,11 +988,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .memAlum {
-  /* width: 100%; */
+  width: 100%;
   /* height: auto; */
   max-width: 356px;
-  width: 95%;
-  /* width: 356px; */
   height: 462px;
   /* max-height: 462px; */
   background: linear-gradient(
@@ -1163,18 +1184,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media screen and (max-width: 1000px) {
-  /* .margin-space {
-        margin-left: 5rem;
-        margin-right: 5rem;
-    } */
-
-  /* .aboutCont {
-        height: 100vh;
-    } */
+@media screen and (max-width: 1280px) and (min-width: 748px){
+  .container{
+    width: 90%;
+    max-width: 896px;
+  }
 }
 
 @media (min-width: 640px){
+  .sm\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .sm\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1189,11 +1211,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:mx-auto{
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:mx-16{
-    margin-left: 4rem;
-    margin-right: 4rem;
   }
 
   .md\:my-28{
@@ -1211,20 +1228,21 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 2rem;
   }
 
-  .md\:ml-10{
-    margin-left: 2.5rem;
+  .md\:mx-16{
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .md\:mb-5{
     margin-bottom: 1.25rem;
   }
 
-  .md\:ml-16{
-    margin-left: 4rem;
+  .md\:ml-10{
+    margin-left: 2.5rem;
   }
 
-  .md\:mt-36{
-    margin-top: 9rem;
+  .md\:ml-16{
+    margin-left: 4rem;
   }
 
   .md\:min-h-screen{
@@ -1257,6 +1275,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 20%;
   }
 
+  .md\:max-w-none{
+    max-width: none;
+  }
+
+  .md\:max-w-sm{
+    max-width: 24rem;
+  }
+
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1281,6 +1307,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-between;
   }
 
+  .md\:space-x-0 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0px * var(--tw-space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:space-y-5 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1299,10 +1331,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:space-x-0 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0px * var(--tw-space-x-reverse));
-    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .md\:px-0{
@@ -1310,12 +1341,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 0px;
   }
 
-  .md\:pl-4{
-    padding-left: 1rem;
-  }
-
   .md\:pr-0{
     padding-right: 0px;
+  }
+
+  .md\:pl-4{
+    padding-left: 1rem;
   }
 
   .md\:text-7xl{
@@ -1328,7 +1359,36 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2.5rem;
   }
 
-  .md\:text-8xl{
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:mt-36{
+    margin-top: 9rem;
+  }
+
+  .xl\:max-h-\[633px\]{
+    max-height: 633px;
+  }
+
+  .xl\:max-w-xl{
+    max-width: 36rem;
+  }
+
+  .xl\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .xl\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-8xl{
     font-size: 6rem;
     line-height: 1;
   }
