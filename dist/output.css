@@ -525,19 +525,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 3.5rem;
 }
 
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .mb-10{
@@ -602,6 +592,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-12{
   height: 3rem;
+}
+
+.w-1\/2{
+  width: 50%;
 }
 
 .w-full{
@@ -697,6 +691,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
+.self-start{
+  align-self: flex-start;
+}
+
 .rounded-xl{
   border-radius: 0.75rem;
 }
@@ -782,9 +780,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
-.px-0{
-  padding-left: 0px;
-  padding-right: 0px;
+.pl-4{
+  padding-left: 1rem;
 }
 
 .pt-4{
@@ -793,10 +790,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-5{
   padding-right: 1.25rem;
-}
-
-.pl-4{
-  padding-left: 1rem;
 }
 
 .text-center{
@@ -990,6 +983,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .fancyClose {
   background-color: #e7ecf2;
+  pointer-events: none;
+  cursor: default;
 }
 
 .eventsImg {

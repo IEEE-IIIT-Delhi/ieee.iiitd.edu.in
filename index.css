@@ -129,6 +129,8 @@
 
 .fancyClose {
     background-color: #e7ecf2;
+    pointer-events: none;
+    cursor: default;
 }
 
 .eventsImg {
