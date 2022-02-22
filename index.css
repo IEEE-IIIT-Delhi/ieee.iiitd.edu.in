@@ -109,6 +109,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.fancyCollab {
+    background: linear-gradient(90deg,  #7987ff, #769cff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .fancyMembers {
     background: linear-gradient(90deg, #CF9BF8, #8D97ED);
     background-clip: text;
@@ -220,8 +226,8 @@
 }
 
 #partners{
-    margin-bottom: 150px;
-    margin-top: 150px;
+    background-color: #2b2b35;
+    padding: 150px 0;
 }
 
 #contact{

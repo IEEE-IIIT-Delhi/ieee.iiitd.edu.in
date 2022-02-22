@@ -506,10 +506,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.m-2{
-  margin: 0.5rem;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -580,10 +576,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 4rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
 .mt-32{
   margin-top: 8rem;
 }
@@ -602,6 +594,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-12{
   height: 3rem;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-8{
+  height: 2rem;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
+.h-14{
+  height: 3.5rem;
 }
 
 .w-1\/2{
@@ -690,20 +698,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2.5rem;
 }
 
-.gap-8{
-  gap: 2rem;
-}
-
 .gap-4{
   gap: 1rem;
-}
-
-.gap-16{
-  gap: 4rem;
-}
-
-.gap-2{
-  gap: 0.5rem;
 }
 
 .gap-x-28{
@@ -755,6 +751,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .self-start{
   align-self: flex-start;
+}
+
+.self-center{
+  align-self: center;
 }
 
 .rounded-xl{
@@ -840,6 +840,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pl-4{
@@ -1023,6 +1028,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-text-fill-color: transparent;
 }
 
+.fancyCollab {
+  background: linear-gradient(90deg,  #7987ff, #769cff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .fancyMembers {
   background: linear-gradient(90deg, #CF9BF8, #8D97ED);
   -webkit-background-clip: text;
@@ -1135,8 +1147,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 #partners{
-  margin-bottom: 150px;
-  margin-top: 150px;
+  background-color: #2b2b35;
+  padding: 150px 0;
 }
 
 #contact{
@@ -1226,18 +1238,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
-  .md\:m-10{
-    margin: 2.5rem;
-  }
-
   .md\:mx-auto{
     margin-left: auto;
     margin-right: auto;
   }
 
-  .md\:my-28{
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+  .md\:my-20{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .md\:my-24{
@@ -1329,12 +1337,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-between;
   }
 
-  .md\:gap-16{
-    gap: 4rem;
-  }
-
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-16{
+    gap: 4rem;
   }
 
   .md\:space-x-0 > :not([hidden]) ~ :not([hidden]){
@@ -1402,6 +1410,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:max-h-\[633px\]{
     max-height: 633px;
+  }
+
+  .xl\:w-1\/4{
+    width: 25%;
   }
 
   .xl\:max-w-xl{
