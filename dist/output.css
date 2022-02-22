@@ -530,6 +530,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -600,6 +605,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-full{
   width: 100%;
+}
+
+.w-60{
+  width: 15rem;
 }
 
 .flex-auto{
@@ -689,6 +698,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+}
+
+.space-y-20 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-24 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(6rem * var(--tw-space-y-reverse));
 }
 
 .self-start{
@@ -825,6 +846,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -931,8 +967,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .memAlum {
   /* width: 100%; */
   /* height: auto; */
-  /* max-width: 356px; */
-  width: 356px;
+  max-width: 356px;
+  width: 95%;
+  /* width: 356px; */
   height: 462px;
   /* max-height: 462px; */
   background: linear-gradient(
@@ -1096,8 +1133,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     } */
 
   body section {
-    padding-left: 20px;
-    padding-right: 10px;
+    padding: 0px 20px;
   }
 
   .aboutCont {
@@ -1170,6 +1206,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 6rem;
   }
 
+  .md\:my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .md\:ml-10{
     margin-left: 2.5rem;
   }
@@ -1214,10 +1255,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-1\/5{
     width: 20%;
-  }
-
-  .md\:w-2\/5{
-    width: 40%;
   }
 
   .md\:grid-cols-3{

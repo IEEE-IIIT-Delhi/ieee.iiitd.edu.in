@@ -86,8 +86,9 @@
 .memAlum {
     /* width: 100%; */
     /* height: auto; */
-    /* max-width: 356px; */
-    width: 356px;
+    max-width: 356px;
+    width: 95%;
+    /* width: 356px; */
     height: 462px;
     /* max-height: 462px; */
     background: linear-gradient(
@@ -248,8 +249,7 @@
     } */
 
     body section {
-        padding-left: 20px;
-        padding-right: 10px;
+        padding: 0px 20px;
     }
 
     .aboutCont {
