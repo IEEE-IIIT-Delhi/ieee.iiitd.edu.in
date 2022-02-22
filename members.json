@@ -2,7 +2,7 @@
     {
         "name": "Prof. S. S. Jamuar",
         "pos": "Faculty Coordinator",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Jamuar.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -14,7 +14,7 @@
     {
         "name": "Dr. Shobha Sundar Ram",
         "pos": "Head of Department, ECE",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/shobha.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -26,7 +26,7 @@
     {
         "name": "Dr. Rajiv Ratn Shah",
         "pos": "CompSoc Faculty Coordinator",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/rajiv.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -38,7 +38,7 @@
     {
         "name": "Prakhar Prasad",
         "pos": "Chairperson",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/prakhar.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -50,7 +50,7 @@
     {
         "name": "Ansh Arora",
         "pos": "Vice Chairperson",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/ansh.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -62,7 +62,7 @@
     {
         "name": "Gursimran Kaur",
         "pos": "Secretary / Coordinator",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Gursimran.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -86,7 +86,7 @@
     {
         "name": "Mihir Chaturvedi",
         "pos": "WebMaster",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/mihir.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -110,7 +110,7 @@
     {
         "name": "Sachleen Kaur",
         "pos": "Design Head",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/sachleen.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -134,7 +134,7 @@
     {
         "name": "Niranjan Sundarajan",
         "pos": "Events Head",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Niranjan.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -146,7 +146,7 @@
     {
         "name": "Meetakshi Setiya",
         "pos": "WiE Chairperson / Coordinator",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Meetakshi Setiya.png",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -158,7 +158,7 @@
     {
         "name": "Amolika Bansal",
         "pos": "Vice Chairperson",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Amolika.png",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -170,7 +170,7 @@
     {
         "name": "Sunishka Sharma",
         "pos": "Secretary",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Sunishka sharma.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -182,7 +182,7 @@
     {
         "name": "Rohan Dhar",
         "pos": "CompSoc Chairperson",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/rohan.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -194,7 +194,7 @@
     {
         "name": "Abhik S Basu",
         "pos": "Vice Chairperson",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/abhik.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -206,7 +206,7 @@
     {
         "name": "Raghav Sahni",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Raghav.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -218,7 +218,7 @@
     {
         "name": "Tejdeep Ch",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Tejdeep.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -230,7 +230,7 @@
     {
         "name": "Anusha Tiwari",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Anusha.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -242,7 +242,7 @@
     {
         "name": "Ritwick Pal",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Ritwick Pal.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -266,7 +266,7 @@
     {
         "name": "Samyak Jain",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Samyak.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -278,7 +278,7 @@
     {
         "name": "Mohit Jain",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/MohitJain.png",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",

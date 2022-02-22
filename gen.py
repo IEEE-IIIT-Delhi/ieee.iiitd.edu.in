@@ -15,15 +15,13 @@ HTMLString = """
         <title>IEEE IIITD Member - {tname}</title>
     </head>
     <body class="flex flex-col md:min-h-screen">
-        <!-- header -->
+       <!-- header -->
         <header class="header">
             <nav class="nav">
-                <div class="container mx-auto my-5">
-                    <div
-                        class="flex justify-between items-center px-4 md:px-0 py-2"
-                    >
+                <div class="mx-auto my-5 max-w-xl container">
+                    <div class="flex justify-between items-center px-4 md:px-8 xl:px-0">
                         <div class="flex items-center">
-                            <a href="index.html">
+                            <a href="../index.html">
                                 <img
                                     src="../assets/index/logo.png"
                                     alt="logo"
@@ -35,12 +33,9 @@ HTMLString = """
                             <a href="../events.html" class="heading2 px-4 py-2"
                                 >events</a
                             >
-                            <a href="../members.html" class="heading2 px-4 py-2 md:px-0 md:pl-4"
+                            <a href="../members.html" class="heading2 pl-4 py-2"
                                 >members</a
                             >
-                            <!-- <a href="#contact" class="heading2 px-4 md:px-0 md:pl-4 py-2"
-                                >contact</a
-                            > -->
                         </div>
                     </div>
                 </div>
@@ -77,14 +72,11 @@ HTMLString = """
 
             <!-- contact -->
             <section id="contact" class="footer-bg">
-                <div class="container mx-auto">
+                <div class="container w-11/12 mx-auto">
                     <div
-                        class="flex flex-col md:flex-row text-white py-20 justify-between md:ml-10 w-full space-y-5"
+                        class="mx-auto flex flex-col md:flex-row gap-10 text-white py-20 justify-between max-w-lg md:max-w-none w-full space-y-5"
                     >
-                        <a href="">
-                            <div
-                                class="memAlum flex flex-col p-7 justify-end items-end text-right rounded-xl"
-                            >
+                        <a href="" class="memAlum flex flex-col p-7 justify-end items-end text-right rounded-xl">
                                 <h1 class="heading text-3xl font-bold">
                                     Our Members and Alumni
                                 </h1>
@@ -97,17 +89,16 @@ HTMLString = """
                                         keyboard_arrow_right
                                     </i>
                                 </div>
-                            </div>
                         </a>
                         <div class="flex flex-col justify-center">
                             <h1
-                                class="fancyJoin heading text-2xl md:text-4xl font-bold leading-10"
+                                class="fancyJoin heading text-4xl md:text-4xl font-bold leading-10"
                             >
                                 Join Us.
                             </h1>
                             
                             <h2
-                                class="heading text-2xl md:text-4xl font-bold w-full md:w-1/2 mt-3"
+                                class="heading text-2xl md:text-3xl xl:text-4xl font-bold w-full md:w-1/2 mt-3"
                             >
                                 Become a part of the exclusive community.
                             </h2>
@@ -128,12 +119,8 @@ HTMLString = """
                                 </li>
                             </ul>
                             
-                            <a href="">
-                                <button
-                                    class="heading2 applyBtn bg-white px-10 py-2 text-black rounded-lg mt-10"
-                                >
+                            <a href="" class="heading2 applyBtn bg-white px-10 py-2 text-black rounded-lg mt-10 w-1/4 text-center min-w-[128px]">
                                     apply
-                                </button>
                             </a>
                         </div>
                     </div>
@@ -146,14 +133,14 @@ HTMLString = """
         <footer class="footer-bg px-8">
             <div class="container mx-auto my-14 mb-28">
                 <div
-                    class="flex flex-col md:flex-row md:justify-between text-white md:mx-auto space-y-5 md:space-y-5"
+                    class="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-between text-white md:mx-auto space-y-5 mx-auto max-w-lg md:max-w-none"
                 >
                     <div
-                        class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5 w-full md:w-1/4 md:mx-auto"
+                        class="flex flex-row gap-4 w-full min-w-fit md:w-1/4 md:mx-auto"
                     >
                         <div class="flex pt-4 text-white">
                             <img
-                                src="./assets/index/logowhite.png"
+                                src="../assets/index/logowhite.png"
                                 alt="logo"
                                 class="footerLogo"
                             />
@@ -174,33 +161,33 @@ HTMLString = """
                         </div>
                     </div>
                     <div
-                        class="flex flex-col md:flex-row md:justify-between w-full md:w-1/3 md:mx-auto"
+                        class="flex flex-col md:flex-row gap-4 md:gap-16 md:justify-between w-full md:w-1/3 md:mx-auto"
                     >
-                        <div class="flex flex-col w-full md:w-1/2 md:mx-16 mb-5 md:mb-5">
+                        <div class="flex flex-col w-full md:w-1/2 mb-5 md:mb-5">
                             <h1 class="heading font-bold">Affiliations</h1>
                             <div
                                 class="flex flex-wrap md:flex-col space-x-5 md:space-x-0"
                             >
-                                <a href="" class="text-gray-500">IIIT Delhi</a>
-                                <a href="" class="text-gray-500">IEEE</a>
-                                <a href="" class="text-gray-500">WiE</a>
-                                <a href="" class="text-gray-500">CompSoc</a>
+                                <a href="https://iiitd.ac.in/" target="blank" class="text-gray-500"><span class="link link-underline link-underline-black">IIIT Delhi</span></a>
+                                <a href="https://www.ieee.org/" target="blank" class="text-gray-500"><span class="link link-underline link-underline-black">IEEE</span></a>
+                                <a href="https://www.wie.ieee.org/" target="blank" class="text-gray-500"><span class="link link-underline link-underline-black">WiE</span></a>
+                                <a href="https://www.computer.org/" target="blank" class="text-gray-500"><span class="link link-underline link-underline-black">CompSoc</span></a>
                             </div>
                         </div>
-                        <div class="flex flex-col w-full md:w-1/2 md:mx-16">
+                        <div class="flex flex-col w-full md:w-1/2">
                             <h1 class="heading font-bold">Socials</h1>
                             <div
                                 class="flex flex-wrap md:flex-col md:space-x-0"
                             >
-                                <a href="" class="pr-5 md:pr-0 text-gray-500">Instagram</a>
-                                <a href="" class="pr-5 md:pr-0 text-gray-500">Facebook</a>
-                                <a href="" class="pr-5 md:pr-0 text-gray-500">LinkedIn</a>
-                                <a href="" class="pr-5 md:pr-0 text-gray-500">YouTube</a>
-                                <a href="" class="pr-5 md:pr-0 text-gray-500">Twitter</a>
+                                <a href="https://www.instagram.com/ieeeiiitdelhi/" target="blank" class="pr-5 md:pr-0 text-gray-500"><span class="link link-underline link-underline-black">Instagram</span></a>
+                                <a href="https://www.facebook.com/ieeeiiitd/" target="blank" class="pr-5 md:pr-0 text-gray-500"><span class="link link-underline link-underline-black">Facebook</span></a>
+                                <a href="https://www.linkedin.com/company/ieee-iiitd/" target="blank" class="pr-5 md:pr-0 text-gray-500"><span class="link link-underline link-underline-black">LinkedIn</span></a>
+                                <a href="https://www.youtube.com/channel/UCKqQYeZ_yOSWL0BQ7eWUqRA" target="blank" class="pr-5 md:pr-0 text-gray-500"><span class="link link-underline link-underline-black">YouTube</span></a>
+                                <a href="https://twitter.com/ieee_d/" target="blank" class="pr-5 md:pr-0 text-gray-500"><span class="link link-underline link-underline-black">Twitter</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col w-full md:w-1/5 md:ml-16">
+                    <div class="flex flex-col w-full md:w-1/5">
                         <h1 class="heading font-bold">Contact</h1>
                         <p class="text-gray-500">
                             <a href="mailto:ieee@iiitd.ac.in"
@@ -230,7 +217,7 @@ for i in range(len(data)):
     f = open(BASE_DIR + str(i+1) + ".html", "w")
     tname = data[i]["name"]
     sname = data[i]["name"]
-    img = data[i]["img"]
+    img = '.'+data[i]["img"]
     aname = data[i]["name"]
     name = data[i]["name"]
     pos = data[i]["pos"]

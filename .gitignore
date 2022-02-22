@@ -1,3 +1,5 @@
 node_modules
 assets/sponsors/.DS_Store
 .vscode/settings.json
+assets/.DS_Store
+assets/people/.DS_Store

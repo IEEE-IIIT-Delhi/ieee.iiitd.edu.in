@@ -21,7 +21,7 @@ fetch('members.json')
         }
         
         for (i = 3; i < 12; i++) {
-            Core.innerHTML += `<a href="$[i].a}">
+            Core.innerHTML += `<a href="${data[i].a}">
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
                 <h1 class="name">${data[i].name}</h1>
