@@ -913,7 +913,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .fancyBtn {
-  background: linear-gradient(90deg, #779dff 0.83%, #287fff 99.17%);
+  /* background-image: linear-gradient(to right, #779dff 0.83%, #287fff 99.17%); */
+  background-image: linear-gradient(to right, #779dff, #287fff, #1d76fa,  #5a87fa);
+  box-shadow: 0 6px 15px 0 #779dff;
+  background-size: 300% 100%;
+  moz-transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
+  transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
+}
+
+.fancyBtn:hover{
+  background-position: 100% 0;
+  box-shadow: 0 4px 18px 4px #5987fb;
+  moz-transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
+  transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
 }
 
 .memAlum {
