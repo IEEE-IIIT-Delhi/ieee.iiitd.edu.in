@@ -11,17 +11,17 @@ fetch('members.json')
     .then(results => results.json())
     .then(data => {
         for (i = 0; i < 3; i++) {
-            Rep.innerHTML += `<a href="${data[i].a}">
+            Rep.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
                 <h1 class="name">${data[i].name}</h1>
                 <h2 class="pos">${data[i].pos}</h2>
-            </div></a>
+            </div>
             `
         }
         
         for (i = 3; i < 12; i++) {
-            Core.innerHTML += `<a href="${data[i].a}">
+            Core.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
                 <h1 class="name">${data[i].name}</h1>
@@ -31,41 +31,41 @@ fetch('members.json')
         }
         
         for (i = 12; i < 15; i++) {
-            Wie.innerHTML += `<a href="${data[i].a}">
+            Wie.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
                 <h1 class="name">${data[i].name}</h1>
                 <h2 class="pos">${data[i].pos}</h2>
-            </
+            </div>
             `
         }
         
         for (i = 15; i < 17; i++) {
-            Compsoc.innerHTML += `<a href="${data[i].a}">
+            Compsoc.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
                 <h1 class="name">${data[i].name}</h1>
                 <h2 class="pos">${data[i].pos}</h2>
-            </div
+            </div>
             `
         }
         
         for (i = 17; i < 25; i++) {
-            Exec.innerHTML += `<a href="${data[i].a}">
+            Exec.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
                 <h1 class="name">${data[i].name}</h1>
-            </div></a>
+            </div>
             `
         }
         
         for (i = 25; i < 27; i++) {
-            Alum.innerHTML += `<a href="${data[i].a}">
+            Alum.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
                 <h1 class="name">${data[i].name}</h1>
                 <h2 class="pos">${data[i].pos}</h2>
-            </div></a>
+            </div>
             `
         }
     });

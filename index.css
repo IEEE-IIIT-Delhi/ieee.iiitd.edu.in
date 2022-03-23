@@ -177,7 +177,7 @@
 
 .footer-bg {
     /* background-color: #1e1e28; */
-    background: #12121d;
+    background: #202027;
 }
 
 .footerLogo {
@@ -261,7 +261,7 @@
 }
 
 .link-underline:hover {
-    background-size: 100% 3px;
+    background-size: 100% 1px;
     background-position: 0 100%
 }
 
