@@ -536,6 +536,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -582,6 +597,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-24{
   margin-bottom: 6rem;
+}
+
+.ml-12{
+  margin-left: 3rem;
+}
+
+.ml-16{
+  margin-left: 4rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .flex{
@@ -634,10 +661,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-60{
   width: 15rem;
-}
-
-.w-2\/3{
-  width: 66.666667%;
 }
 
 .min-w-\[128px\]{
@@ -781,14 +804,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
-.border-gray-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
 .border-gray-600{
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
+}
+
+.border-gray-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
 .bg-slate-100{
@@ -801,14 +824,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-indigo-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(224 231 255 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#111115\]{
   --tw-bg-opacity: 1;
   background-color: rgb(17 17 21 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 231 255 / var(--tw-bg-opacity));
 }
 
 .p-5{
@@ -869,11 +892,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .pl-4{
   padding-left: 1rem;
 }
@@ -888,10 +906,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-5{
   padding-right: 1.25rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .pb-5{
