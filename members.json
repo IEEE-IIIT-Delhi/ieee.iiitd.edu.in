@@ -300,6 +300,426 @@
         "a": "./members/25.html"
     },
     {
+        "name": "Aditya Girdhar",
+        "pos": "ExeCom",
+        "img": "./assets/people/AdityaGirdhar.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/26.html"
+    },
+    {
+        "name": "Agamdeep Singh",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/27.html"
+    },
+    {
+        "name": "Alvin Joseph Ambooken",
+        "pos": "ExeCom",
+        "img": "./assets/people/Alvin.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/28.html"
+    },
+    {
+        "name": "Ananya Goyal",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/29.html"
+    },
+    {
+        "name": "Anjali",
+        "pos": "ExeCom",
+        "img": "./assets/people/Anjali.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/30.html"
+    },
+    {
+        "name": "Arnav Goel",
+        "pos": "ExeCom",
+        "img": "./assets/people/ArnavGoel.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/31.html"
+    },
+    {
+        "name": "Arya Abhisri",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/32.html"
+    },
+    {
+        "name": "Charvi Jindal",
+        "pos": "ExeCom",
+        "img": "./assets/people/Charvi Jindal.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/33.html"
+    },
+    {
+        "name": "Devansh Tripathi",
+        "pos": "ExeCom",
+        "img": "./assets/people/Devansh.JPG",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/34.html"
+    },
+    {
+        "name": "Diksha Sethi",
+        "pos": "ExeCom",
+        "img": "./assets/people/DikshaSethi.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/35.html"
+    },
+    {
+        "name": "Divyajeet Singh",
+        "pos": "ExeCom",
+        "img": "./assets/people/divyajeet.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/36.html"
+    },
+    {
+        "name": "Harshit Choudhary",
+        "pos": "ExeCom",
+        "img": "./assets/people/Harshit.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/37.html"
+    },
+    {
+        "name": "Ishita Sindhwani",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/38.html"
+    },
+    {
+        "name": "Jaideep Guntupalli",
+        "pos": "ExeCom",
+        "img": "./assets/people/Jaideep.png",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/39.html"
+    },
+    {
+        "name": "Jayan Pahuja",
+        "pos": "ExeCom",
+        "img": "./assets/people/Jayan.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/40.html"
+    },
+    {
+        "name": "K S Shyama Sastha",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/41.html"
+    },
+    {
+        "name": "Kartikye Prasad",
+        "pos": "ExeCom",
+        "img": "./assets/people/Kartikye_Prasad.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/42.html"
+    },
+    {
+        "name": "Kevin Paul",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/43.html"
+    },
+    {
+        "name": "Medha Hira",
+        "pos": "ExeCom",
+        "img": "./assets/people/medha.png",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/44.html"
+    },
+    {
+        "name": "Mehul Arora",
+        "pos": "ExeCom",
+        "img": "./assets/people/MehulArora.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/45.html"
+    },
+    {
+        "name": "Mrinal Anand",
+        "pos": "ExeCom",
+        "img": "./assets/people/Mrinal_Anand.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/46.html"
+    },
+    {
+        "name": "Neelabh Kumar Srivastava",
+        "pos": "ExeCom",
+        "img": "./assets/people/Neelabh.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/47.html"
+    },
+    {
+        "name": "Nishi Ninawat",
+        "pos": "ExeCom",
+        "img": "./assets/people/Nishi.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/48.html"
+    },
+    {
+        "name": "Pragyan Yadav",
+        "pos": "ExeCom",
+        "img": "./assets/people/Pragyan.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/49.html"
+    },
+    {
+        "name": "Prashasti Gupta",
+        "pos": "ExeCom",
+        "img": "./assets/people/Prashasti.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/50.html"
+    },
+    {
+        "name": "Prasun Pratik",
+        "pos": "ExeCom",
+        "img": "./assets/people/Prasun.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/51.html"
+    },
+    {
+        "name": "Ramyanee Kashyap",
+        "pos": "ExeCom",
+        "img": "./assets/people/Ramyanee.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/52.html"
+    },
+    {
+        "name": "Sahas Marwah",
+        "pos": "ExeCom",
+        "img": "./assets/people/Sahas Marwah.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/53.html"
+    },
+    {
+        "name": "Sameer Gupta",
+        "pos": "ExeCom",
+        "img": "./assets/people/Sameer.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/54.html"
+    },
+    {
+        "name": "Shashank Singh",
+        "pos": "ExeCom",
+        "img": "./assets/people/Shashank.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/55.html"
+    },
+    {
+        "name": "Sumit Soni",
+        "pos": "ExeCom",
+        "img": "./assets/people/sumit.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/56.html"
+    },
+    {
+        "name": "Udbhav Varma",
+        "pos": "ExeCom",
+        "img": "./assets/people/Udbhav.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/57.html"
+    },
+    {
+        "name": "Utkarsh Venaik",
+        "pos": "ExeCom",
+        "img": "./assets/people/Utkarsh Venaik.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/58.html"
+    },
+    {
+        "name": "Vibhu Dubey",
+        "pos": "ExeCom",
+        "img": "https://via.placeholder.com/100x100",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/59.html"
+    },
+    {
+        "name": "Viviana Longjam",
+        "pos": "ExeCom",
+        "img": "./assets/people/viviana.jpg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/60.html"
+    },
+    {
         "name": "Max",
         "pos": "CMO",
         "img": "https://via.placeholder.com/100x100",
@@ -309,7 +729,7 @@
             "wb": "#"
         },
         "desc": "lorem",
-        "a": "./members/26.html"
+        "a": "./members/61.html"
     },
     {
         "name": "Jack",
@@ -321,6 +741,6 @@
             "wb": "#"
         },
         "desc": "lorem",
-        "a": "./members/27.html"
+        "a": "./members/62.html"
     }
 ]
