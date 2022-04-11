@@ -516,6 +516,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-14{
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
@@ -536,21 +541,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-1{
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -565,6 +555,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .mt-10{
@@ -591,24 +585,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 4rem;
 }
 
+.ml-16{
+  margin-left: 4rem;
+}
+
 .mt-32{
   margin-top: 8rem;
 }
 
 .mb-24{
   margin-bottom: 6rem;
-}
-
-.ml-12{
-  margin-left: 3rem;
-}
-
-.ml-16{
-  margin-left: 4rem;
-}
-
-.mb-2{
-  margin-bottom: 0.5rem;
 }
 
 .flex{
@@ -912,10 +898,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.25rem;
 }
 
-.text-left{
-  text-align: left;
-}
-
 .text-center{
   text-align: center;
 }
@@ -1052,18 +1034,24 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .fancyBtn {
   /* background-image: linear-gradient(to right, #779dff 0.83%, #287fff 99.17%); */
-  background-image: linear-gradient(to right, #779dff, #287fff, #1d76fa,  #5a87fa);
+  background-image: linear-gradient(
+        to right,
+        #779dff,
+        #287fff,
+        #1d76fa,
+        #5a87fa
+    );
   box-shadow: 0 6px 15px 0 #779dff;
   background-size: 300% 100%;
-  moz-transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
-  transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
+  moz-transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
-.fancyBtn:hover{
+.fancyBtn:hover {
   background-position: 100% 0;
   box-shadow: 0 4px 18px 4px #5987fb;
-  moz-transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
-  transition: background .4s ease-in-out, box-shadow .4s ease-in-out;
+  moz-transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
 .memAlum {
@@ -1095,14 +1083,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .fancyCollab {
-  background: linear-gradient(90deg,  #7987ff, #769cff);
+  background: linear-gradient(90deg, #7987ff, #769cff);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .fancyMembers {
-  background: linear-gradient(90deg, #CF9BF8, #8D97ED);
+  background: linear-gradient(90deg, #cf9bf8, #8d97ed);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1118,14 +1106,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: #17132D;
+  color: #17132d;
 }
 
 .pos {
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  color: #17132D;
+  color: #17132d;
   opacity: 0.6;
 }
 
@@ -1184,72 +1172,74 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 654px;
 }
 
-.applyBtnTop{
+.applyBtnTop {
   padding-bottom: 17px;
 }
 
-.join{
+.join {
   margin-left: 5px;
 }
 
-.abouttxt{
-  color: #585B78;
+.abouttxt {
+  color: #585b78;
 }
 
-.registerBtn{
+.registerBtn {
   padding-bottom: 12px;
 }
 
-.applyBtn{
+.applyBtn {
   padding-bottom: 15px;
 }
 
-.line{
-  margin-top:100px;
+.line {
+  margin-top: 100px;
   opacity: 0.3;
 }
 
-.topline{
+.topline {
   margin-top: 50px;
 }
 
-#partners{
+#partners {
   background-color: #2b2b35;
   padding: 150px 0;
 }
 
-#contact{
-  padding-top: 50px;
+#contact {
+  padding: 50px 0;
 }
 
-.linejoin{
+.linejoin {
   margin-top: 50px;
 }
 
-.aboutheading{
+.aboutheading {
   color: #17132d;
 }
 
-.membertitle{
+.membertitle {
   margin-top: 75px;
 }
 
 .link-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-image: linear-gradient(transparent, transparent),
+        linear-gradient(#fff, #fff);
   background-size: 0 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
-  transition: background-size .3s ease-in-out;
+  transition: background-size 0.3s ease-in-out;
 }
 
 .link-underline-black {
-  background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(107 114 128), rgb(107 114 128))
+  background-image: linear-gradient(transparent, transparent),
+        linear-gradient(rgb(107 114 128), rgb(107 114 128));
 }
 
 .link-underline:hover {
   background-size: 100% 1px;
-  background-position: 0 100%
+  background-position: 0 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1269,7 +1259,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   .eventsCard {
     margin: 20px;
     box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
-        0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+            0px 10px 32px -4px rgba(24, 39, 75, 0.1);
   }
 
   #events,
@@ -1285,8 +1275,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 748px){
-  .container{
+@media screen and (max-width: 1280px) and (min-width: 748px) {
+  .container {
     width: 90%;
     max-width: 896px;
   }
