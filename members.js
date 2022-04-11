@@ -59,7 +59,7 @@ fetch("members.json")
             `;
         }
 
-        for (i = 59; i < 61; i++) {
+        for (i = 59; i < 65; i++) {
             Alum.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">

@@ -708,9 +708,9 @@
         "a": "./members/60.html"
     },
     {
-        "name": "Max",
-        "pos": "CMO",
-        "img": "https://via.placeholder.com/100x100",
+        "name": "Neelabhro Roy",
+        "pos": "EECS @ KTH Royal Institute of Technology, Sweden",
+        "img": "./assets/people/neelabhro.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -720,9 +720,9 @@
         "a": "./members/61.html"
     },
     {
-        "name": "Jack",
-        "pos": "CO",
-        "img": "https://via.placeholder.com/100x100",
+        "name": "Osaid Rehman Nasir",
+        "pos": "SDE @ LinkedIn",
+        "img": "./assets/people/osaid.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -730,5 +730,53 @@
         },
         "desc": "lorem",
         "a": "./members/62.html"
+    },
+    {
+        "name": "Suryaansh Mata",
+        "pos": "Associate Engineer @ Mathworks",
+        "img": "./assets/people/suryaansh.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/65.html"
+    },
+    {
+        "name": "Munish Thakral",
+        "pos": "SDE @ AMEX",
+        "img": "./assets/people/munish.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/66.html"
+    },
+    {
+        "name": "Vaibhav Goel",
+        "pos": "Incoming MTS @ Adobe",
+        "img": "./assets/people/vaibhav.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/67.html"
+    },
+    {
+        "name": "Utsav Rohilla",
+        "pos": "ACM ICPC World Finalist'19 & SDE @ Google",
+        "img": "./assets/people/utsav.jpeg",
+        "social": {
+            "fb": "https://www.facebook.com/",
+            "tw": "https://twitter.com/",
+            "wb": "#"
+        },
+        "desc": "lorem",
+        "a": "./members/68.html"
     }
 ]
