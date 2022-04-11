@@ -38,7 +38,7 @@
     {
         "name": "Prakhar Prasad",
         "pos": "Chairperson",
-        "img": "./assets/people/prakhar.jpeg",
+        "img": "./assets/people/Prakhar.jpg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -74,7 +74,7 @@
     {
         "name": "Garmit Pant",
         "pos": "Treasurer / Coordinator",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Garmit.png",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -122,7 +122,7 @@
     {
         "name": "Shragvi Sidarth Jha",
         "pos": "Operations Head",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/Sidarth.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -286,18 +286,6 @@
         },
         "desc": "lorem",
         "a": "./members/24.html"
-    },
-    {
-        "name": "Aayush Kapoor",
-        "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
-        "social": {
-            "fb": "https://www.facebook.com/",
-            "tw": "https://twitter.com/",
-            "wb": "#"
-        },
-        "desc": "lorem",
-        "a": "./members/25.html"
     },
     {
         "name": "Aditya Girdhar",

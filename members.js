@@ -50,7 +50,7 @@ fetch("members.json")
             `;
         }
 
-        for (i = 17; i < 60; i++) {
+        for (i = 17; i < 59; i++) {
             Exec.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
@@ -59,7 +59,7 @@ fetch("members.json")
             `;
         }
 
-        for (i = 60; i < 62; i++) {
+        for (i = 59; i < 61; i++) {
             Alum.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
