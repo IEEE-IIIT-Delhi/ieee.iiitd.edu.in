@@ -727,6 +727,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
+}
+
 .gap-x-28{
   -moz-column-gap: 7rem;
        column-gap: 7rem;
