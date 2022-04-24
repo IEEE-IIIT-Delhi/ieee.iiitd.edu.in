@@ -48,16 +48,16 @@
         "a": "./members/4.html"
     },
     {
-        "name": "Ansh Arora",
-        "pos": "Vice Chairperson",
-        "img": "./assets/people/ansh.jpeg",
+        "name": "Garmit Pant",
+        "pos": "Treasurer / Coordinator",
+        "img": "./assets/people/Garmit.png",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
             "wb": "#"
         },
         "desc": "lorem",
-        "a": "./members/5.html"
+        "a": "./members/7.html"
     },
     {
         "name": "Gursimran Kaur",
@@ -72,17 +72,18 @@
         "a": "./members/6.html"
     },
     {
-        "name": "Garmit Pant",
-        "pos": "Treasurer / Coordinator",
-        "img": "./assets/people/Garmit.png",
+        "name": "Ansh Arora",
+        "pos": "Vice Chairperson",
+        "img": "./assets/people/ansh.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
             "wb": "#"
         },
         "desc": "lorem",
-        "a": "./members/7.html"
+        "a": "./members/5.html"
     },
+
     {
         "name": "Mihir Chaturvedi",
         "pos": "WebMaster",
@@ -96,9 +97,9 @@
         "a": "./members/8.html"
     },
     {
-        "name": "Daksh T",
+        "name": "Daksh Thapar",
         "pos": "Industrial Outreach",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/daksh.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -132,7 +133,7 @@
         "a": "./members/11.html"
     },
     {
-        "name": "Niranjan Sundarajan",
+        "name": "Niranjan Sundararajan",
         "pos": "Events Head",
         "img": "./assets/people/Niranjan.jpeg",
         "social": {
@@ -254,7 +255,7 @@
     {
         "name": "Jogith S Chandran",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/jogith.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -302,7 +303,7 @@
     {
         "name": "Agamdeep Singh",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/avatar.png",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -326,7 +327,7 @@
     {
         "name": "Ananya Goyal",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/ananya.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -362,7 +363,7 @@
     {
         "name": "Arya Abhisri",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/arya.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -434,7 +435,7 @@
     {
         "name": "Ishita Sindhwani",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/avatar.png",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -470,7 +471,7 @@
     {
         "name": "K S Shyama Sastha",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/sastha.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -494,7 +495,7 @@
     {
         "name": "Kevin Paul",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/kevin.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
@@ -686,7 +687,7 @@
     {
         "name": "Vibhu Dubey",
         "pos": "ExeCom",
-        "img": "https://via.placeholder.com/100x100",
+        "img": "./assets/people/vibhu.jpeg",
         "social": {
             "fb": "https://www.facebook.com/",
             "tw": "https://twitter.com/",
