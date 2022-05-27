@@ -1,0 +1,21 @@
+on: push
+name: Publish to prod
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+    - uses: actions/setup-node@v1
+    - run: npm install
+    - run: npm run build
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: sftp://www.iiitd.edu.in/mnt/Storage/www/ieee
+        ftp-username: ieee@iiitd.edu.in
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: dist/
+        git-ftp-args: --insecure
