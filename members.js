@@ -20,7 +20,7 @@ fetch("members.json")
             `;
         }
 
-        for (i = 3; i < 12; i++) {
+        for (i = 3; i < 13; i++) {
             Core.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
@@ -30,17 +30,7 @@ fetch("members.json")
             `;
         }
 
-        for (i = 12; i < 15; i++) {
-            Wie.innerHTML += `
-            <div class="memCard flex flex-col items-center justify-center space-y-4">
-                <img src="${data[i].img}" alt="${data[i].name}" class="pic">
-                <h1 class="name">${data[i].name}</h1>
-                <h2 class="pos">${data[i].pos}</h2>
-            </div>
-            `;
-        }
-
-        for (i = 15; i < 17; i++) {
+        for (i = 13; i < 16; i++) {
             Compsoc.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
@@ -50,7 +40,17 @@ fetch("members.json")
             `;
         }
 
-        for (i = 17; i < 59; i++) {
+        for (i = 16; i < 19; i++) {
+            Wie.innerHTML += `
+            <div class="memCard flex flex-col items-center justify-center space-y-4">
+                <img src="${data[i].img}" alt="${data[i].name}" class="pic">
+                <h1 class="name">${data[i].name}</h1>
+                <h2 class="pos">${data[i].pos}</h2>
+            </div>
+            `;
+        }
+
+        for (i = 19; i < 50; i++) {
             Exec.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
@@ -59,7 +59,7 @@ fetch("members.json")
             `;
         }
 
-        for (i = 59; i < 65; i++) {
+        for (i = 50; i < 70; i++) {
             Alum.innerHTML += `
             <div class="memCard flex flex-col items-center justify-center space-y-4">
                 <img src="${data[i].img}" alt="${data[i].name}" class="pic">
