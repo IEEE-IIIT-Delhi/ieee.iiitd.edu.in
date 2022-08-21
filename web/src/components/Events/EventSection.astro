@@ -1,0 +1,39 @@
+---
+export interface Props {
+    isHome: boolean;
+}
+
+const { isHome } = Astro.props as Props;
+---
+
+<section id="events" class="md:min-h-full bg-slate-100">
+    <div class="container mx-auto">
+        <div class="flex flex-col py-32 space-y-24">
+            <div class="flex flex-col md:flex-row mx-auto">
+                <h1
+                    class="fancyEvent heading text-5xl sm:text-6xl md:text-7xl font-bold"
+                >
+                    events.
+                </h1>
+                <!-- &nbsp;&nbsp; -->
+                <h1 class="heading text-5xl sm:text-6xl md:text-7xl font-bold">
+                    for everyone.
+                </h1>
+            </div>
+            <div class="flex flex-wrap justify-around">
+                <slot />
+            </div>
+            {
+                isHome && (
+                    <div class="flex items-center justify-center text-xl font-semibold">
+                        <a href="./events.html"> view all</a>
+                        <i class="material-icons text-3xl">
+                            {" "}
+                            keyboard_arrow_right
+                        </i>
+                    </div>
+                )
+            }
+        </div>
+    </div>
+</section>

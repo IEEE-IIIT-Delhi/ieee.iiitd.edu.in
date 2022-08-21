@@ -1,0 +1,99 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BlockContent from "../../components/Blog/BlockContent";
+
+export interface Blog {
+    title: string;
+    desc: string;
+    slug: {
+        current: string;
+    };
+    BlogedDate: string;
+    author: {
+        fName: string;
+        lName: string;
+        position: string;
+        photo: {
+            asset: {
+                url: string;
+            };
+            alt: string;
+        };
+    };
+    coverImg: {
+        asset: {
+            url: string;
+        };
+        alt: string;
+        caption: string;
+    };
+    category: {
+        categoryName: string;
+    };
+    contentRaw: any[];
+}
+
+import { allPosts } from "../../lib/api";
+import { formatBlogPostDate, getSanityContent } from "../../utils/helpers";
+
+export async function getStaticPaths() {
+    const response = await getSanityContent({ query: allPosts });
+    const blogData: Blog[] = response.allBlog;
+    return blogData.map((blog) => ({
+        params: { slug: blog.slug.current },
+        props: { blog },
+    }));
+}
+
+const { blog } = Astro.props;
+
+const title = blog.title;
+---
+
+<Layout title={title}>
+    <section class="md:min-h-screen">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-x-28 mt-32 mb-24 md:my-24">
+                <div class="w-5/6 mx-auto mt-12">
+                    <p class="cursor-pointer opacity-75 font-medium">
+                        <a class="font-medium" href="/blogs">blog</a> / {title}
+                    </p>
+                    <div
+                        class="flex flex-col gap-8 md:flex-row md:gap-0 justify-between w-full mt-10"
+                    >
+                        <h2 class="text-5xl font-bold">{title}</h2>
+                        <div class="flex gap-3">
+                            <img
+                                src={blog.author.photo.asset.url}
+                                alt={blog.author.photo.alt}
+                                class="rounded-full w-10 h-10 object-cover"
+                            />
+                            <div>
+                                <p class="font-semibold opacity-50">
+                                    {blog.author.fName}
+                                    {blog.author.lName}
+                                </p>
+                                <p class="opacity-50 text-xs font-medium">
+                                    {blog.author.position}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        src={blog.coverImg.asset.url}
+                        alt={blog.coverImg.alt}
+                        class="w-full h-[40vh] object-cover rounded-2xl my-8"
+                    />
+                    <p class="opacity-75 text-3xl font-medium">
+                        {formatBlogPostDate(blog.BlogedDate)}
+                    </p>
+                    <div
+                        class="flex flex-col gap-6 opacity-70 my-8 mb-16 leading-loose"
+                    >
+                        <BlockContent blocks={blog.contentRaw} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>

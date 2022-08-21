@@ -1,0 +1,87 @@
+---
+import { formatBlogPostDate } from "../../utils/helpers";
+export interface Blog {
+    _id: string;
+    title: string;
+    desc: string;
+    slug: {
+        current: string;
+    };
+    BlogedDate: string;
+    author: {
+        fName: string;
+        lName: string;
+        position: string;
+        photo: {
+            asset: {
+                url: string;
+            };
+            alt: string;
+        };
+    };
+    coverImg: {
+        asset: {
+            url: string;
+        };
+        alt: string;
+        caption: string;
+    };
+    category: {
+        categoryName: string;
+    };
+    contentRaw: any[];
+}
+
+export interface Props {
+    blog: Blog;
+    filter: string;
+}
+
+const { blog, filter } = Astro.props as Props;
+---
+
+{
+    (blog.category.categoryName === filter || filter === "allposts") && (
+        <a
+            href={`/blogs/${blog.slug.current}`}
+            class="flex flex-col md:flex-row md:h-[40vh] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.1)] rounded-2xl cursor-pointer"
+        >
+            <img
+                src={blog.coverImg.asset.url}
+                alt={blog.coverImg.alt}
+                class="md:w-1/4 object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
+            />
+            <section class="p-8 md:p-10 flex flex-col gap-6">
+                <div class="flex flex-col md:flex-row gap-4 md:gap-0 justify-between w-full">
+                    <div class="flex flex-col gap-2">
+                        <h2 class="text-3xl md:text-[32px] font-semibold">
+                            {blog.title}
+                        </h2>
+                        <p class="font-semibold opacity-70">
+                            {formatBlogPostDate(blog.BlogedDate)}
+                        </p>
+                    </div>
+                    <div class="flex gap-3">
+                        <img
+                            src={blog.author.photo.asset.url}
+                            alt={blog.author.photo.alt}
+                            class="rounded-full w-10 h-10 object-cover"
+                        />
+                        <div>
+                            <p class="font-semibold opacity-50">
+                                {blog.author.fName + " " + blog.author.lName}
+                            </p>
+                            <p class="opacity-50 text-xs font-medium">
+                                {blog.author.position}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-xs font-bold opacity-50">
+                    {blog.category.categoryName}
+                </p>
+                <div>{blog.desc.slice(0, 400) + "..."}</div>
+            </section>
+        </a>
+    )
+}

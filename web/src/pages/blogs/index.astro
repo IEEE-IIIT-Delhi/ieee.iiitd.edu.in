@@ -1,0 +1,50 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BlogPreview from "../../components/Blog/BlogPreview.astro";
+import { allPosts, allCategories } from "../../lib/api";
+import { getSanityContent } from "../../utils/helpers";
+
+const blogresponse = await getSanityContent({ query: allPosts });
+const catresponse = await getSanityContent({ query: allCategories });
+const blogData: any[] = blogresponse.allBlog;
+const catData: any[] = catresponse.allCategory;
+---
+
+<Layout title="Blogs">
+    <section class="md:min-h-screen">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-x-28 mt-32 mb-24 md:my-24">
+                <h1
+                    class="fancyMembers heading text-5xl md:text-7xl font-bold h-24 mt-10"
+                >
+                    blog
+                </h1>
+                <hr
+                    class="border-1 border-gray-500 rounded-full my-4 mb-8 opacity-30"
+                />
+                <section class="flex gap-6 text-gray-500 mb-16 overflow-auto">
+                    <a class="cursor-pointer sofia whitespace-nowrap"
+                        >allposts
+                    </a>
+                    {
+                        catData.map((cat) => (
+                            <a
+                                href={`/blogs/category/${cat.slug.current}/`}
+                                class="cursor-pointer sofia whitespace-nowrap"
+                            >
+                                {cat.categoryName.toLowerCase()}
+                            </a>
+                        ))
+                    }
+                </section>
+                <section class="flex flex-col gap-10">
+                    {
+                        blogData.map((blog) => (
+                            <BlogPreview blog={blog} filter={"allposts"} />
+                        ))
+                    }
+                </section>
+            </div>
+        </div>
+    </section>
+</Layout>

@@ -1,0 +1,87 @@
+---
+import { formatBlogPostDate } from "../../utils/helpers";
+
+export interface Event {
+	_id: string;
+	isOpen: boolean;
+	showDate: boolean;
+	eventName: string;
+	eventDate: Date;
+	eventPoster: {
+		asset: {
+			url: string;
+		};
+		alt: string;
+		caption: string;
+	};
+	desc: string;
+	formLink: string;
+}
+
+export interface Props {
+	event: Event;
+}
+
+const { event } = Astro.props as Props;
+---
+
+<div
+	class="eventsCard flex flex-col space-y-5 rounded-xl p-5 mb-10 items-center relative pb-24"
+>
+	<div class="flex flex-col space-y-5 items-center">
+		<img
+			src={event.eventPoster.asset.url}
+			alt={event.eventPoster.alt}
+			class="eventsImg rounded-xl"
+		/>
+		{
+			event.showDate ? (
+				<h1 class="text-xl font-bold self-start">
+					{formatBlogPostDate(event.eventDate)}
+				</h1>
+			) : (
+				<h1 class="text-xl font-bold self-start">To Be Announced..</h1>
+			)
+		}
+
+		<p class="text-[#7c808b] leading-loose text-sm">
+			{event.desc}
+		</p>
+	</div>
+	<div class="flex justify-center">
+		{
+			event.isOpen ? (
+				<a
+					href={event.formLink}
+					class="text-center fancyBtn heading2 px-10 py-2 pb-3 rounded-lg absolute bottom-6"
+				>
+					register
+				</a>
+			) : (
+				<a
+					href={event.formLink}
+					class="text-center fancyClose heading2 px-10 py-2 pb-3 rounded-lg absolute bottom-6"
+				>
+					closed
+				</a>
+			)
+		}
+	</div>
+</div>
+<style>
+	.eventsCard {
+		width: 100%;
+		max-width: 320px;
+		box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+			0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+		background-color: white;
+		border-radius: 1.1rem;
+	}
+
+	.eventsImg {
+		width: 100%;
+		height: auto;
+		max-width: 290px;
+		max-height: 180px;
+	}
+</style>
