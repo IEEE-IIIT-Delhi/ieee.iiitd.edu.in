@@ -15,7 +15,6 @@ const { isHome } = Astro.props as Props;
                 >
                     events.
                 </h1>
-                <!-- &nbsp;&nbsp; -->
                 <h1 class="heading text-5xl sm:text-6xl md:text-7xl font-bold">
                     for everyone.
                 </h1>
@@ -26,7 +25,7 @@ const { isHome } = Astro.props as Props;
             {
                 isHome && (
                     <div class="flex items-center justify-center text-xl font-semibold">
-                        <a href="./events.html"> view all</a>
+                        <a href="/events"> view all</a>
                         <i class="material-icons text-3xl">
                             {" "}
                             keyboard_arrow_right
