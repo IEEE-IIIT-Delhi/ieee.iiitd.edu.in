@@ -64,6 +64,9 @@ export default {
                 {
                     type: "img",
                 },
+                {
+                    type: "eventReport",
+                },
             ],
         },
         {
