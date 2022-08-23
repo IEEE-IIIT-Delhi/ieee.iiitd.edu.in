@@ -63,7 +63,7 @@ const tags: [
 ] = blog.tags;
 ---
 
-<Layout title={title}>
+<Layout title={title} og={blog.coverImg.asset.url}>
     <section class="md:min-h-screen">
         <div class="container mx-auto">
             <div class="flex flex-col gap-x-28 mt-32 mb-24 md:my-24">
