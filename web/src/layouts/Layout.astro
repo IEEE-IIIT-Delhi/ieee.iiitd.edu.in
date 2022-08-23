@@ -536,6 +536,11 @@ const { title } = Astro.props as Props;
 				margin-top: 75px;
 			}
 
+			.report {
+				box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+					0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+			}
+
 			.link-underline {
 				border-bottom-width: 0;
 				background-image: linear-gradient(transparent, transparent),
@@ -549,6 +554,10 @@ const { title } = Astro.props as Props;
 			.link-underline-black {
 				background-image: linear-gradient(transparent, transparent),
 					linear-gradient(rgb(107 114 128), rgb(107 114 128));
+			}
+			.link-underline-blue {
+				background-image: linear-gradient(transparent, transparent),
+					linear-gradient(#5e7eff, #5e7eff);
 			}
 
 			.link-underline:hover {

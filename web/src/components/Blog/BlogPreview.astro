@@ -38,6 +38,9 @@ export interface Props {
 }
 
 const { blog, filter } = Astro.props as Props;
+const authorFName = blog.author.fName !== null ? blog.author.fName : "";
+const authorLName = blog.author.lName !== null ? blog.author.lName : "";
+const authorName = authorFName + " " + authorLName;
 ---
 
 {
@@ -51,26 +54,34 @@ const { blog, filter } = Astro.props as Props;
                 alt={blog.coverImg.alt}
                 class="md:w-1/4 object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
             />
-            <section class="p-8 md:p-10 flex flex-col gap-6">
+            <section class="p-8 md:p-10 flex flex-col gap-6 md:w-3/4">
                 <div class="flex flex-col md:flex-row gap-4 md:gap-0 justify-between w-full">
                     <div class="flex flex-col gap-2">
                         <h2 class="text-3xl md:text-[32px] font-semibold">
                             {blog.title}
                         </h2>
-                        <p class="font-semibold opacity-70">
-                            {formatBlogPostDate(blog.BlogedDate)}
-                        </p>
+                        {blog.BlogedDate !== null && (
+                            <p class="font-semibold opacity-70">
+                                {formatBlogPostDate(blog.BlogedDate)}
+                            </p>
+                        )}
                     </div>
                     <div class="flex gap-3">
-                        <img
-                            src={blog.author.photo.asset.url}
-                            alt={blog.author.photo.alt}
-                            class="rounded-full w-10 h-10 object-cover"
-                        />
+                        {blog.author.photo !== null ? (
+                            <img
+                                src={blog.author.photo.asset.url}
+                                alt={blog.author.photo.alt}
+                                class="rounded-full w-10 h-10 object-cover"
+                            />
+                        ) : (
+                            <img
+                                src="/people/avatar.png"
+                                alt={authorName}
+                                class="rounded-full w-10 h-10 object-cover"
+                            />
+                        )}
                         <div>
-                            <p class="font-semibold opacity-50">
-                                {blog.author.fName + " " + blog.author.lName}
-                            </p>
+                            <p class="font-semibold opacity-50">{authorName}</p>
                             <p class="opacity-50 text-xs font-medium">
                                 {blog.author.position}
                             </p>

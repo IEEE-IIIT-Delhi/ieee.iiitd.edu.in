@@ -67,6 +67,9 @@ export const allPosts = `{
      categoryName
    }
    contentRaw
+   tags{
+    tagName
+  }
  }
 }`;
 
