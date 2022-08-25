@@ -12,6 +12,8 @@ function urlFor(source) {
     return builder.image(source);
 }
 
+let categories = new Set();
+
 const serializers = {
     types: {
         img: (props) => (
@@ -86,45 +88,128 @@ const serializers = {
                                         </i>
                                         Winners:{" "}
                                     </h3>
-                                    {props.value.winners.map((winner) => (
-                                        <div
-                                            key={winner._key}
-                                            className="flex gap-2 mb-2"
-                                        >
-                                            <p>
-                                                {winner.position === 1 && (
-                                                    <i className="material-icons text-yellow-500">
-                                                        military_tech
-                                                    </i>
-                                                )}
-                                                {winner.position === 2 && (
-                                                    <i className="material-icons text-gray-400">
-                                                        military_tech
-                                                    </i>
-                                                )}
-                                                {winner.position === 3 && (
-                                                    <i className="material-icons text-amber-700">
-                                                        military_tech
-                                                    </i>
-                                                )}
-                                                {winner.position !== 1 &&
-                                                    winner.position !== 2 &&
-                                                    winner.position !== 3 && (
-                                                        <span className="pl-2">
-                                                            {winner.position +
-                                                                "."}
-                                                        </span>
-                                                    )}
-                                            </p>
-                                            <div>
-                                                {winner.names.map((name) => (
-                                                    <p key={winner._key}>
-                                                        {name}
-                                                    </p>
-                                                ))}
-                                            </div>
-                                        </div>
+                                    {console.log((categories = new Set()))}
+                                    {props.value.winners.map((winner) => {
+                                        winner.category !== undefined
+                                            ? categories.add(winner.category)
+                                            : console.log("");
+                                    })}
+
+                                    {Array.from(categories).map((item) => (
+                                        <>
+                                            <h3 className="font-medium text-lg">
+                                                {item}
+                                            </h3>
+                                            {props.value.winners.map(
+                                                (winner) =>
+                                                    winner.category ===
+                                                        item && (
+                                                        <div
+                                                            key={winner._key}
+                                                            className="flex gap-2 mb-2"
+                                                        >
+                                                            <p>
+                                                                {winner.position ===
+                                                                    1 && (
+                                                                    <i className="material-icons text-yellow-500">
+                                                                        military_tech
+                                                                    </i>
+                                                                )}
+                                                                {winner.position ===
+                                                                    2 && (
+                                                                    <i className="material-icons text-gray-400">
+                                                                        military_tech
+                                                                    </i>
+                                                                )}
+                                                                {winner.position ===
+                                                                    3 && (
+                                                                    <i className="material-icons text-amber-700">
+                                                                        military_tech
+                                                                    </i>
+                                                                )}
+                                                                {winner.position !==
+                                                                    1 &&
+                                                                    winner.position !==
+                                                                        2 &&
+                                                                    winner.position !==
+                                                                        3 && (
+                                                                        <span className="pl-2">
+                                                                            {winner.position +
+                                                                                "."}
+                                                                        </span>
+                                                                    )}
+                                                            </p>
+                                                            <div>
+                                                                {winner.names.map(
+                                                                    (name) => (
+                                                                        <p
+                                                                            key={
+                                                                                winner._key
+                                                                            }
+                                                                        >
+                                                                            {
+                                                                                name
+                                                                            }
+                                                                        </p>
+                                                                    )
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                    )
+                                            )}
+                                        </>
                                     ))}
+                                    {categories.size === 0 &&
+                                        props.value.winners.map((winner) => (
+                                            <div
+                                                key={winner._key}
+                                                className="flex gap-2 mb-2"
+                                            >
+                                                <p>
+                                                    {winner.position === 1 && (
+                                                        <i className="material-icons text-yellow-500">
+                                                            military_tech
+                                                        </i>
+                                                    )}
+                                                    {winner.position === 2 && (
+                                                        <i className="material-icons text-gray-400">
+                                                            military_tech
+                                                        </i>
+                                                    )}
+                                                    {winner.position === 3 && (
+                                                        <i className="material-icons text-amber-700">
+                                                            military_tech
+                                                        </i>
+                                                    )}
+                                                    {winner.position !== 1 &&
+                                                        winner.position !== 2 &&
+                                                        winner.position !==
+                                                            3 && (
+                                                            <span className="pl-2">
+                                                                {winner.position +
+                                                                    "."}
+                                                            </span>
+                                                        )}
+                                                </p>
+                                                <div>
+                                                    {winner.names.map(
+                                                        (name) => (
+                                                            <p
+                                                                key={
+                                                                    winner._key
+                                                                }
+                                                            >
+                                                                {name +
+                                                                    (winner.category !==
+                                                                    undefined
+                                                                        ? `(${winner.category})`
+                                                                        : "")}
+                                                            </p>
+                                                        )
+                                                    )}
+                                                </div>
+                                            </div>
+                                        ))}
                                 </div>
                             )}
                     </div>
