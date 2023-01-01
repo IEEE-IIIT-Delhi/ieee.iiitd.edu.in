@@ -47,7 +47,7 @@ const authorName = authorFName + " " + authorLName;
     (blog.category.categoryName === filter || filter === "allposts") && (
         <a
             href={`/blogs/${blog.slug.current}`}
-            class="flex flex-col md:flex-row md:h-[40vh] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.1)] rounded-2xl cursor-pointer"
+            class="flex flex-col md:flex-row md:min-h-[35vh] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.1)] rounded-2xl cursor-pointer"
         >
             <img
                 src={blog.coverImg.asset.url}
@@ -92,8 +92,8 @@ const authorName = authorFName + " " + authorLName;
                     {blog.category.categoryName}
                 </p>
                 <div>
-                    {blog.desc.slice(0, 400) +
-                        (blog.desc.length >= 400 ? "..." : "")}
+                    {blog.desc.slice(0, 420) +
+                        (blog.desc.length >= 420 ? "..." : "")}
                 </div>
             </section>
         </a>
