@@ -32,13 +32,14 @@ const serializers = {
         ),
         eventReport: (props) => (
             <div className="report rounded-xl p-6 md:p-8 flex gap-10 flex-col md:flex-row mb-12">
-                {props.value.eventPoster !== undefined && (
-                    <img
-                        className="rounded-lg md:w-1/3 object-cover"
-                        src={urlFor(props.value.eventPoster.asset)}
-                        alt={props.value.eventPoster.alt}
-                    />
-                )}
+                {props.value.eventPoster !== undefined &&
+                    props.value.eventPoster.asset !== undefined && (
+                        <img
+                            className="rounded-lg md:w-1/3 object-cover"
+                            src={urlFor(props.value.eventPoster.asset)}
+                            alt={props.value.eventPoster.alt}
+                        />
+                    )}
                 <div>
                     <h2 className="text-4xl font-bold mb-4">
                         {props.value.eventName}

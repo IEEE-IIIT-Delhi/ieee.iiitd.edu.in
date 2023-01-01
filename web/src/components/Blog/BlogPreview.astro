@@ -91,7 +91,10 @@ const authorName = authorFName + " " + authorLName;
                 <p class="text-xs font-bold opacity-50">
                     {blog.category.categoryName}
                 </p>
-                <div>{blog.desc.slice(0, 400) + "..."}</div>
+                <div>
+                    {blog.desc.slice(0, 400) +
+                        (blog.desc.length >= 400 ? "..." : "")}
+                </div>
             </section>
         </a>
     )
