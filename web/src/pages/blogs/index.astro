@@ -31,6 +31,46 @@ const catData: any[] = catresponse.allCategory;
                         >allposts
                     </a>
                     {
+                        // lowercase all category names
+                        catData.map((cat) => {
+                            cat.categoryName = cat.categoryName.toLowerCase();
+                        })
+                    }
+                    {
+                        // sort categories by name where "events" is first, then "tech affairs", then "ieee conference minutes", then "benefits of ieee"
+                        console.log(
+                            catData.sort((a, b) => {
+                                if (a.categoryName === "events") {
+                                    return -1;
+                                } else if (b.categoryName === "events") {
+                                    return 1;
+                                } else if (a.categoryName === "tech affairs") {
+                                    return -1;
+                                } else if (b.categoryName === "tech affairs") {
+                                    return 1;
+                                } else if (
+                                    a.categoryName === "ieee conference minutes"
+                                ) {
+                                    return -1;
+                                } else if (
+                                    b.categoryName === "ieee conference minutes"
+                                ) {
+                                    return 1;
+                                } else if (
+                                    a.categoryName === "benefits of ieee"
+                                ) {
+                                    return -1;
+                                } else if (
+                                    b.categoryName === "benefits of ieee"
+                                ) {
+                                    return 1;
+                                } else {
+                                    return 0;
+                                }
+                            })
+                        )
+                    }
+                    {
                         catData.map((cat) => (
                             <a
                                 href={`/blogs/category/${cat.slug.current}/`}
