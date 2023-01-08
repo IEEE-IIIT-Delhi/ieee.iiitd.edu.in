@@ -56,6 +56,13 @@ export const allPosts = `{
        alt
      }
    }
+    previewImg{
+     asset{
+       url
+    }
+    alt
+    caption
+   }
    coverImg{
      asset{
        url
