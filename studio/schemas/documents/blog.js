@@ -54,6 +54,12 @@ export default {
             description: `Image shown on hero section,  as part of preview as well as when sharing links`,
         },
         {
+            title: "Preview Image",
+            name: "previewImg",
+            type: "img",
+            description: `Image shown specifically on preview section ieee blog page. This should be a square image`,
+        },
+        {
             title: "Content",
             name: "content",
             type: "array",
