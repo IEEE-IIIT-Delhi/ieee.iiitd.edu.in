@@ -19,8 +19,8 @@ export default {
             type: "string",
             options: {
                 list: [
-                    { title: "B.Tech", value: "B.Tech" },
-                    { title: "M.Tech", value: "M.Tech" },
+                    { title: "B.Tech.", value: "B.Tech." },
+                    { title: "M.Tech.", value: "M.Tech." },
                     { title: "Phd", value: "Phd" },
                 ],
             },
