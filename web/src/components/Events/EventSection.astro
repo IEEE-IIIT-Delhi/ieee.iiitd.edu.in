@@ -13,7 +13,7 @@ const { isHome } = Astro.props as Props;
                 <h1
                     class="fancyEvent heading text-5xl sm:text-6xl md:text-7xl font-bold"
                 >
-                    events.
+                    {"events. "}
                 </h1>
                 <h1 class="heading text-5xl sm:text-6xl md:text-7xl font-bold">
                     for everyone.
@@ -25,7 +25,10 @@ const { isHome } = Astro.props as Props;
             {
                 isHome && (
                     <div class="flex items-center justify-center text-xl font-semibold">
-                        <a href="/events"> view all</a>
+                        <a href="/blogs/ieee-events-report-jan-dec-2022">
+                            {" "}
+                            view all
+                        </a>
                         <i class="material-icons text-3xl">
                             {" "}
                             keyboard_arrow_right
