@@ -1,0 +1,30 @@
+---
+import MemberPreview from "./MemberPreview.astro";
+
+export interface Props {
+    team: {
+        team: string;
+        members: {
+            name: string;
+            pos: string;
+            img: string;
+            social: {
+                fb: string;
+                tw: string;
+                wb: string;
+            };
+            desc: string;
+            a: string;
+        }[];
+    };
+}
+
+const { team } = Astro.props as Props;
+---
+
+<hr class="border-1 border-gray-500 rounded-full my-4 md:my-8 line topline" />
+<h2 class="text-3xl font-bold">{team.team}</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10" id="rep">
+    {team.members.map((member) => <MemberPreview member={member} />)}
+</div>

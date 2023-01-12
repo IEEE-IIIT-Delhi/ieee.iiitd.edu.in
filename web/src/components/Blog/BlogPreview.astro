@@ -1,0 +1,121 @@
+---
+import { formatBlogPostDate } from "../../utils/helpers";
+export interface Blog {
+    _id: string;
+    title: string;
+    desc: string;
+    slug: {
+        current: string;
+    };
+    BlogedDate: string;
+    author: {
+        fName: string;
+        lName: string;
+        position: string;
+        photo: {
+            asset: {
+                url: string;
+            };
+            alt: string;
+        };
+    };
+    coverImg: {
+        asset: {
+            url: string;
+        };
+        alt: string;
+        caption: string;
+    };
+    previewImg: {
+        asset: {
+            url: string;
+        };
+        alt: string;
+        caption: string;
+    };
+    category: {
+        categoryName: string;
+    };
+    contentRaw: any[];
+}
+
+export interface Props {
+    blog: Blog;
+    filter: string;
+}
+
+const { blog, filter } = Astro.props as Props;
+const authorFName = blog.author.fName !== null ? blog.author.fName : "";
+const authorLName = blog.author.lName !== null ? blog.author.lName : "";
+const authorName = authorFName + " " + authorLName;
+---
+
+{
+    (blog.category.categoryName === filter || filter === "allposts") && (
+        <a
+            href={`/blogs/${blog.slug.current}`}
+            class="flex flex-col md:flex-row md:min-h-[34vh] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.1)] rounded-2xl cursor-pointer"
+        >
+            <p class="p-5 md:max-w-xs lg:max-w-sm bg-[#767696] rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl">
+                {blog.previewImg.asset.url ? (
+                    <img
+                        src={blog.previewImg.asset.url}
+                        alt={blog.previewImg.alt}
+                        class="w-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
+                    />
+                ) : (
+                    <img
+                        src={blog.coverImg.asset.url}
+                        alt={blog.coverImg.alt}
+                        class="w-full object-cover rounded-2xl md:rounded-2xl"
+                    />
+                )}
+            </p>
+            <section class="p-8 md:p-10 flex flex-col gap-6 md:w-3/4">
+                <div class="flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between w-full">
+                    <div class="flex flex-col gap-2">
+                        <h2 class="text-3xl md:text-[32px] font-semibold">
+                            {blog.title}
+                        </h2>
+                        {blog.BlogedDate !== null && (
+                            <p class="font-semibold opacity-70">
+                                {formatBlogPostDate(blog.BlogedDate)}
+                            </p>
+                        )}
+                    </div>
+                    <div class="flex gap-3">
+                        {blog.author.photo !== null ? (
+                            <img
+                                src={blog.author.photo.asset.url}
+                                alt={blog.author.photo.alt}
+                                class="rounded-full w-10 h-10 object-cover"
+                            />
+                        ) : (
+                            <img
+                                src="/people/avatar.png"
+                                alt={authorName}
+                                class="rounded-full w-10 h-10 object-cover"
+                            />
+                        )}
+                        <div>
+                            <p class="font-semibold opacity-50">{authorName}</p>
+                            <p class="opacity-50 text-xs font-medium">
+                                {blog.author.position}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-xs font-bold opacity-50">
+                    {blog.category.categoryName}
+                </p>
+                <div>
+                    {blog.desc.slice(0, 420) +
+                        (blog.desc.length >= 420 ? "..." : "")}
+                </div>
+                <p class=" text-sm font-bold text-blue-400">
+                    {"Click to know more >>"}
+                </p>
+            </section>
+        </a>
+    )
+}

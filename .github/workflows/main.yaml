@@ -1,0 +1,67 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+    build:
+        name: ⛏ Build
+        runs-on: ubuntu-latest
+        steps:
+            - name: 🚚 Get latest code
+              uses: actions/checkout@main
+
+            - name: ✅ Install Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "18"
+
+            - name: 🐉 Install Yarn
+              run: npm install -g yarn
+
+            - name: 📦 Installing Packages
+              run: yarn install
+
+            - name: 🏗️ Buidling Project
+              env:
+                  PUBLIC_SANITY_PROJECT_ID: ${{ secrets.PUBLIC_SANITY_PROJECT_ID }}
+                  PUBLIC_SANITY_DATASET: ${{ secrets.PUBLIC_SANITY_DATASET }}
+                  PUBLIC_SANITY_GRAPHQL_URL: ${{ secrets.PUBLIC_SANITY_GRAPHQL_URL }}
+              run: yarn build
+              working-directory: ./web
+
+            - name: 📥 Archive production artifact
+              uses: actions/upload-artifact@main
+              with:
+                  name: dist
+                  path: web/dist/
+
+    deploy:
+        name: 🎉 Deploy
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+            # - name: 🚚 Get latest code
+            #   uses: actions/checkout@main
+
+            - name: ⬇️ Download artifact
+              uses: actions/download-artifact@main
+              with:
+                  name: dist
+
+            - name: 🧪 Test Artifact
+              run: ls -R
+
+            - name: 🌐 Global Config
+              run: git config --global user.email "you@example.com" && git config --global user.name "Your Name"
+
+            - name: 🎛️ Gitify
+              run: git init
+
+            - name: 🕸️ Commit
+              run: git add . && git commit -m "Init"
+
+            - name: 📂 Sync files
+              uses: SamKirkland/FTP-Deploy-Action@3.1.1
+              with:
+                  ftp-server: ${{ secrets.FTP_SERVER }}
+                  ftp-username: ${{ secrets.FTP_USERNAME }}
+                  ftp-password: ${{ secrets.FTP_PASSWORD }}
+                  git-ftp-args: --insecure

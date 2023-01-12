@@ -1,0 +1,140 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BlockContent from "../../components/Blog/BlockContent";
+
+export interface Blog {
+    title: string;
+    desc: string;
+    slug: {
+        current: string;
+    };
+    BlogedDate: string;
+    author: {
+        fName: string;
+        lName: string;
+        position: string;
+        photo: {
+            asset: {
+                url: string;
+            };
+            alt: string;
+        };
+    };
+    coverImg: {
+        asset: {
+            url: string;
+        };
+        alt: string;
+        caption: string;
+    };
+    category: {
+        categoryName: string;
+    };
+    contentRaw: any[];
+    tags: [
+        {
+            tagName: string;
+        }
+    ];
+}
+
+import { allPosts } from "../../lib/api";
+import { formatBlogPostDate, getSanityContent } from "../../utils/helpers";
+
+export async function getStaticPaths() {
+    const response = await getSanityContent({ query: allPosts });
+    const blogData: Blog[] = response.allBlog;
+    return blogData.map((blog) => ({
+        params: { slug: blog.slug.current },
+        props: { blog },
+    }));
+}
+
+const { blog } = Astro.props;
+
+const title = blog.title;
+const authorFName = blog.author.fName !== null ? blog.author.fName : "";
+const authorLName = blog.author.lName !== null ? blog.author.lName : "";
+const authorName = authorFName + " " + authorLName;
+const tags: [
+    {
+        tagName: string;
+    }
+] = blog.tags;
+---
+
+<Layout
+    title={title}
+    og={blog.coverImg.asset.url}
+    desc={blog.desc}
+    slug={blog.slug.current}
+>
+    <section class="md:min-h-screen">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-x-28 mt-32 mb-24 md:my-24">
+                <div class="w-5/6 mx-auto mt-12">
+                    <p class="cursor-pointer opacity-75 font-medium">
+                        <a class="font-medium" href="/blogs">blog</a> / {title}
+                    </p>
+                    <div
+                        class="flex flex-col gap-8 md:flex-row md:gap-0 justify-between w-full mt-10"
+                    >
+                        <h2 class="text-5xl font-bold md:max-w-[80%]">
+                            {title}
+                        </h2>
+                        <div class="flex gap-3">
+                            {
+                                blog.author.photo !== null ? (
+                                    <img
+                                        src={blog.author.photo.asset.url}
+                                        alt={blog.author.photo.alt}
+                                        class="rounded-full w-10 h-10 object-cover"
+                                    />
+                                ) : (
+                                    <img
+                                        src="/people/avatar.png"
+                                        alt={authorName}
+                                        class="rounded-full w-10 h-10 object-cover"
+                                    />
+                                )
+                            }
+                            <div>
+                                <p class="font-semibold opacity-50">
+                                    {authorName}
+                                </p>
+                                <p class="opacity-50 text-xs font-medium">
+                                    {blog.author.position}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        src={blog.coverImg.asset.url}
+                        alt={blog.coverImg.alt}
+                        class="w-full rounded-2xl my-8"
+                    />
+
+                    {
+                        blog.BlogedDate !== null && (
+                            <p class="opacity-75 text-3xl font-medium">
+                                {formatBlogPostDate(blog.BlogedDate)}
+                            </p>
+                        )
+                    }
+                    <div class="my-8 mb-16">
+                        <BlockContent blocks={blog.contentRaw} />
+                    </div>
+                    <p>
+                        {
+                            tags.map((tag) => (
+                                <span class="py-1 px-2 mr-4 bg-gray-200">
+                                    {tag.tagName}
+                                </span>
+                            ))
+                        }
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>

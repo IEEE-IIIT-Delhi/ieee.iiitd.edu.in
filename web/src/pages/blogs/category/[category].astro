@@ -1,0 +1,131 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import BlogPreview from "../../../components/Blog/BlogPreview.astro";
+import { allPosts, allCategories } from "../../../lib/api";
+import { getSanityContent } from "../../../utils/helpers";
+
+export interface Category {
+    name: string;
+    slug: {
+        current: string;
+    };
+}
+
+export async function getStaticPaths() {
+    const catresponse = await getSanityContent({ query: allCategories });
+    const catData: Category[] = catresponse.allCategory;
+    return catData.map((cat) => ({
+        params: { category: cat.slug.current },
+        props: { cat },
+    }));
+}
+
+const blogresponse = await getSanityContent({ query: allPosts });
+const catresponse = await getSanityContent({ query: allCategories });
+const blogData: any[] = blogresponse.allBlog;
+const catData: any[] = catresponse.allCategory;
+
+const { cat } = Astro.props;
+
+let isEmpty = true;
+
+for (let i = 0; i < blogData.length; i++) {
+    if (blogData[i].category.categoryName === cat.categoryName) {
+        isEmpty = false;
+    }
+}
+---
+
+<Layout
+    title="Blog"
+    desc="Official Blog of IEEE Student Branch of IIIT Delhi"
+    slug="blogs"
+>
+    <section class="md:min-h-screen">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-x-28 mt-32 mb-24 md:my-24">
+                <h1
+                    class="fancyMembers heading text-5xl md:text-7xl font-bold h-24 mt-10"
+                >
+                    blog
+                </h1>
+                <hr
+                    class="border-1 border-gray-500 rounded-full my-4 mb-8 opacity-30"
+                />
+                <section class="flex gap-6 text-gray-500 mb-16 overflow-auto">
+                    <a
+                        href="/blogs/"
+                        class="cursor-pointer sofia whitespace-nowrap"
+                        >allposts
+                    </a>
+                    {
+                        // lowercase all category names
+                        catData.map((cat) => {
+                            cat.categoryName = cat.categoryName.toLowerCase();
+                        })
+                    }
+                    {
+                        // sort categories by name where "events" is first, then "tech affairs", then "ieee conference minutes", then "benefits of ieee"
+                        console.log(
+                            catData.sort((a, b) => {
+                                if (a.categoryName === "events") {
+                                    return -1;
+                                } else if (b.categoryName === "events") {
+                                    return 1;
+                                } else if (a.categoryName === "tech affairs") {
+                                    return -1;
+                                } else if (b.categoryName === "tech affairs") {
+                                    return 1;
+                                } else if (
+                                    a.categoryName === "ieee conference minutes"
+                                ) {
+                                    return -1;
+                                } else if (
+                                    b.categoryName === "ieee conference minutes"
+                                ) {
+                                    return 1;
+                                } else if (
+                                    a.categoryName === "benefits of ieee"
+                                ) {
+                                    return -1;
+                                } else if (
+                                    b.categoryName === "benefits of ieee"
+                                ) {
+                                    return 1;
+                                } else {
+                                    return 0;
+                                }
+                            })
+                        )
+                    }
+                    {
+                        catData.map((cat) => (
+                            <a
+                                href={`/blogs/category/${cat.slug.current}/`}
+                                class="cursor-pointer sofia whitespace-nowrap"
+                            >
+                                {cat.categoryName.toLowerCase()}
+                            </a>
+                        ))
+                    }
+                </section>
+                <section class="flex flex-col gap-10">
+                    {
+                        isEmpty ? (
+                            <h1 class="font-semibold opacity-70">
+                                No Blogs yet...
+                            </h1>
+                        ) : (
+                            blogData.map((blog) => (
+                                <BlogPreview
+                                    blog={blog}
+                                    filter={cat.categoryName}
+                                />
+                            ))
+                        )
+                    }
+                </section>
+            </div>
+        </div>
+    </section>
+</Layout>

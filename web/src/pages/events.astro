@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import EventCard from "../components/Events/EventCard.astro";
+import EventSection from "../components/Events/EventSection.astro";
+
+import { allEvents } from "../lib/api.js";
+import { getSanityContent } from "../utils/helpers";
+
+const response = await getSanityContent({ query: allEvents });
+const eventsData = response.allEvent;
+---
+
+<Layout title="Events">
+    <EventSection isHome={false}>
+        {eventsData.map((event) => <EventCard event={event} />)}
+    </EventSection>
+</Layout>
+
+<style>
+
+</style>
