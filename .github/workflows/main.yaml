@@ -20,12 +20,12 @@ jobs:
               run: yarn install
 
             - name: 🏗️ Buidling Project
-              working-directory: ./web
               env:
                   PUBLIC_SANITY_PROJECT_ID: ${{ secrets.PUBLIC_SANITY_PROJECT_ID }}
                   PUBLIC_SANITY_DATASET: ${{ secrets.PUBLIC_SANITY_DATASET }}
                   PUBLIC_SANITY_GRAPHQL_URL: ${{ secrets.PUBLIC_SANITY_GRAPHQL_URL }}
               run: yarn build
+              working-directory: ./web
 
             - name: 📥 Archive production artifact
               uses: actions/upload-artifact@main
