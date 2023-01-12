@@ -16,11 +16,13 @@ jobs:
             - name: 🐉 Install Yarn
               run: npm install -g yarn
 
-            - name: 🪜 Traversing to web
-              run: cd web
 
             - name: 📦 Installing Packages
               run: yarn install
+
+            - name: 🪜 Traversing to web
+              run: cd web
+              run: ls
 
             - name: 🏗️ Buidling Project
               env:
