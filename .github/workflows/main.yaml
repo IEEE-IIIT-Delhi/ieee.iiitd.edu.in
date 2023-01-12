@@ -31,8 +31,8 @@ jobs:
               uses: actions/upload-artifact@main
               with:
                   name: dist
-                  path: dist/
-              working-directory: ./web
+                  path: web/dist/
+
     deploy:
         name: 🎉 Deploy
         needs: build
