@@ -19,13 +19,8 @@ jobs:
             - name: 📦 Installing Packages
               run: yarn install
 
-            - name: 🪜 Traversing to web
-              run: cd web
-
-            - name: Checking
-              run: ls
-
             - name: 🏗️ Buidling Project
+              working-directory: ./web
               env:
                   PUBLIC_SANITY_PROJECT_ID: ${{ secrets.PUBLIC_SANITY_PROJECT_ID }}
                   PUBLIC_SANITY_DATASET: ${{ secrets.PUBLIC_SANITY_DATASET }}
@@ -34,6 +29,7 @@ jobs:
 
             - name: 📥 Archive production artifact
               uses: actions/upload-artifact@main
+              working-directory: ./web
               with:
                   name: dist
                   path: dist/
