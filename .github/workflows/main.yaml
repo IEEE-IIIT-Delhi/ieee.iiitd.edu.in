@@ -29,10 +29,10 @@ jobs:
 
             - name: 📥 Archive production artifact
               uses: actions/upload-artifact@main
-              working-directory: ./web
               with:
                   name: dist
                   path: dist/
+              working-directory: ./web
     deploy:
         name: 🎉 Deploy
         needs: build
