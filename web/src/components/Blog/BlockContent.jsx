@@ -31,11 +31,11 @@ const serializers = {
             </>
         ),
         eventReport: (props) => (
-            <div className="report rounded-xl p-6 md:p-8 flex gap-10 flex-col md:flex-row mb-12">
+            <div className="report rounded-xl p-6 md:p-8 flex gap-10 flex-col md:flex-row mb-12 items-start">
                 {props.value.eventPoster !== undefined &&
                     props.value.eventPoster.asset !== undefined && (
                         <img
-                            className="rounded-lg md:w-1/3 object-cover"
+                            className="rounded-lg md:w-1/3 object-contain"
                             src={urlFor(props.value.eventPoster.asset)}
                             alt={props.value.eventPoster.alt}
                         />
