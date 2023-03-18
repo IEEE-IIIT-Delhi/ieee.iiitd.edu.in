@@ -56,16 +56,20 @@ const title = blog.title;
 const authorFName = blog.author.fName !== null ? blog.author.fName : "";
 const authorLName = blog.author.lName !== null ? blog.author.lName : "";
 const authorName = authorFName + " " + authorLName;
+const blogCoverImg =
+    blog.coverImg !== null ? blog.coverImg.asset.url : "/blog/default.jpg";
+const blogCoverImgAlt =
+    blog.coverImg !== null ? blog.coverImg.alt : "default blog cover image";
 const tags: [
     {
         tagName: string;
     }
-] = blog.tags;
+] = blog.tags !== null ? blog.tags : [];
 ---
 
 <Layout
     title={title}
-    og={blog.coverImg.asset.url}
+    og={blogCoverImg}
     desc={blog.desc}
     slug={blog.slug.current}
 >
@@ -109,8 +113,8 @@ const tags: [
                         </div>
                     </div>
                     <img
-                        src={blog.coverImg.asset.url}
-                        alt={blog.coverImg.alt}
+                        src={blogCoverImg}
+                        alt={blogCoverImgAlt}
                         class="w-full rounded-2xl my-8"
                     />
 

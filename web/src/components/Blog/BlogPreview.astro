@@ -57,17 +57,25 @@ const authorName = authorFName + " " + authorLName;
             class="flex flex-col md:flex-row md:min-h-[34vh] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.1)] rounded-2xl cursor-pointer"
         >
             <p class="p-5 md:max-w-xs lg:max-w-sm bg-[#767696] rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl">
-                {blog.previewImg.asset.url ? (
-                    <img
-                        src={blog.previewImg.asset.url}
-                        alt={blog.previewImg.alt}
-                        class="w-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
-                    />
+                {blog.previewImg !== null ? (
+                    blog.previewImg.asset.url ? (
+                        <img
+                            src={blog.previewImg.asset.url}
+                            alt={blog.previewImg.alt}
+                            class="w-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
+                        />
+                    ) : (
+                        <img
+                            src={blog.coverImg.asset.url}
+                            alt={blog.coverImg.alt}
+                            class="w-full object-cover rounded-2xl md:rounded-2xl"
+                        />
+                    )
                 ) : (
                     <img
-                        src={blog.coverImg.asset.url}
-                        alt={blog.coverImg.alt}
-                        class="w-full object-cover rounded-2xl md:rounded-2xl"
+                        src="/blog/preview.jpg"
+                        alt="Default Thumbnail"
+                        class="w-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
                     />
                 )}
             </p>
