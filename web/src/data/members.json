@@ -3,9 +3,9 @@
         "team": "Representatives",
         "members": [
             {
-                "name": "Prof. S. S. Jamuar",
+                "name": "Dr. Chanekar Prasad Vilas",
                 "pos": "Faculty Coordinator",
-                "img": "/people/Jamuar.jpg",
+                "img": "/people/chanekar.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -44,9 +44,9 @@
         "team": "IEEE Core Team",
         "members": [
             {
-                "name": "Niranjan Sundararajan",
-                "pos": "Chairperson  / Coordinator",
-                "img": "/people/Niranjan.jpeg",
+                "name": "Divyajeet Singh",
+                "pos": "Chairperson",
+                "img": "/people/divyajeet.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -56,9 +56,9 @@
                 "a": "./members/4.html"
             },
             {
-                "name": "Raghav Sahni",
-                "pos": "Vice-Chair",
-                "img": "/people/Raghav.jpg",
+                "name": "Agamdeep Singh",
+                "pos": "Vice-Chairperson",
+                "img": "/people/agamdeep.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -68,9 +68,9 @@
                 "a": "./members/5.html"
             },
             {
-                "name": "Tejdeep Ch",
-                "pos": "Treasurer / Coordinator",
-                "img": "/people/Tejdeep.jpg",
+                "name": "Udbhav Varma",
+                "pos": "General Secretary",
+                "img": "/people/Udbhav.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -80,9 +80,9 @@
                 "a": "./members/6.html"
             },
             {
-                "name": "Aditya Girdhar",
-                "pos": "Secretary",
-                "img": "/people/AdityaGirdhar.jpg",
+                "name": "Somay Jalan",
+                "pos": "Treasurer",
+                "img": "/people/somay.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -92,9 +92,9 @@
                 "a": "./members/7.html"
             },
             {
-                "name": "Ananya Goyal",
-                "pos": "Events Head / WIE Secretary",
-                "img": "/people/ananya.jpeg",
+                "name": "Arhaan Bahadur",
+                "pos": "Webmaster",
+                "img": "/people/arhaan.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -104,9 +104,9 @@
                 "a": "./members/8.html"
             },
             {
-                "name": "Viviana Longjam",
-                "pos": "Design Head",
-                "img": "/people/viviana.jpg",
+                "name": "Manit Kaushik",
+                "pos": "Events Heads (CSE & ECE)",
+                "img": "/people/manit.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -116,9 +116,9 @@
                 "a": "./members/9.html"
             },
             {
-                "name": "Sahas Marwah",
-                "pos": "Content Head",
-                "img": "/people/Sahas Marwah.jpg",
+                "name": "Riya Sachdeva",
+                "pos": "Events Heads (CSE & ECE)",
+                "img": "/people/core/riya.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -128,9 +128,9 @@
                 "a": "./members/10.html"
             },
             {
-                "name": "Divyajeet Singh",
-                "pos": "Communications Head",
-                "img": "/people/divyajeet.jpg",
+                "name": "Parth Barthwal",
+                "pos": "Design Head",
+                "img": "/people/core/parth.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -140,9 +140,9 @@
                 "a": "./members/11.html"
             },
             {
-                "name": "Jaideep Guntupalli",
-                "pos": "Web Master",
-                "img": "/people/Jaideep.png",
+                "name": "Shamik Sinha",
+                "pos": "Content Head",
+                "img": "/people/core/ShamikSinha.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -152,9 +152,9 @@
                 "a": "./members/12.html"
             },
             {
-                "name": "Sumit Soni",
+                "name": "Mann Nariya",
                 "pos": "Operations Head",
-                "img": "/people/sumit.jpg",
+                "img": "/people/core/MannNariya.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -165,14 +165,13 @@
             }
         ]
     },
-
     {
         "team": "Computer Society",
         "members": [
             {
-                "name": "Abhik S Basu",
-                "pos": "Chairperson / Coordinator",
-                "img": "/people/abhik.jpeg",
+                "name": "Mehul Arora",
+                "pos": "Chairperson",
+                "img": "/people/compsoc/MehulArora.JPG",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -182,9 +181,9 @@
                 "a": "./members/14.html"
             },
             {
-                "name": "Mehul Arora",
-                "pos": "Vice-Chairperson",
-                "img": "/people/MehulArora.jpeg",
+                "name": "Neemesh Yadav",
+                "pos": "Chairperson",
+                "img": "/people/compsoc/NeemeshYadav.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -194,9 +193,21 @@
                 "a": "./members/15.html"
             },
             {
-                "name": "Vibhu Dubey",
+                "name": "Ishir Bhardwaj",
+                "pos": "Vice-Chairperson",
+                "img": "/people/compsoc/IshirBhardwaj.jpg",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/16.html"
+            },
+            {
+                "name": "Saksham Singh",
                 "pos": "Secretary",
-                "img": "/people/vibhu.jpeg",
+                "img": "/people/compsoc/SakshamSingh.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -207,14 +218,13 @@
             }
         ]
     },
-
     {
         "team": "Women in Engineering",
         "members": [
             {
-                "name": "Diksha Sethi",
+                "name": "Prashasti Gupta",
                 "pos": "Chairperson",
-                "img": "/people/DikshaSethi.jpeg",
+                "img": "/people/wie/PrashastiGupta.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -224,9 +234,9 @@
                 "a": "./members/17.html"
             },
             {
-                "name": "Ramyanee Kashyap",
+                "name": "Kartikeya Chhikara",
                 "pos": "Vice-Chairperson",
-                "img": "/people/Ramyanee.jpg",
+                "img": "/people/wie/KartikeyaChhikara.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -236,9 +246,9 @@
                 "a": "./members/18.html"
             },
             {
-                "name": "Ananya Goyal",
+                "name": "Swarnima Prasad",
                 "pos": "Secretary",
-                "img": "/people/ananya.jpeg",
+                "img": "/people/wie/SwarnimaPrasad.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -249,15 +259,54 @@
             }
         ]
     },
-
+    {
+        "team": "Signal Processing Society",
+        "members": [
+            {
+                "name": "Siddhant Rai Viksit",
+                "pos": "Chairperson",
+                "img": "/people/sps/SiddhantRaiViksit.jpg",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/17.html"
+            },
+            {
+                "name": "Krishna Ayyagari",
+                "pos": "Vice-Chairperson",
+                "img": "/people/sps/KrishnaAyyagari.jpg",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/18.html"
+            },
+            {
+                "name": "Shobhit Pandey",
+                "pos": "Secretary",
+                "img": "/people/sps/ShobhitPandey.jpeg",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/19.html"
+            }
+        ]
+    },
     {
         "team": "Executive Committee",
         "members": [
             {
-                "name": "Anusha Tiwari",
+                "name": "Mohit Jain",
                 "pos": "ExeCom",
-
-                "img": "/people/Anusha.jpeg",
+                "img": "/people/avatar.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -267,10 +316,9 @@
                 "a": "./members/20.html"
             },
             {
-                "name": "Ritwick Pal",
+                "name": "Deeptorshi Mondal",
                 "pos": "ExeCom",
-
-                "img": "/people/Ritwick Pal.jpg",
+                "img": "/people/x/DeeptorshiMondal.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -280,10 +328,9 @@
                 "a": "./members/21.html"
             },
             {
-                "name": "Jogith S Chandran",
+                "name": "Sohum Sikdar",
                 "pos": "ExeCom",
-
-                "img": "/people/jogith.jpeg",
+                "img": "/people/avatar.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -293,10 +340,9 @@
                 "a": "./members/22.html"
             },
             {
-                "name": "Samyak Jain",
+                "name": "Prateek Kumar",
                 "pos": "ExeCom",
-
-                "img": "/people/Samyak.jpg",
+                "img": "/people/x/PrateekKumar.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -305,12 +351,10 @@
                 "desc": "lorem",
                 "a": "./members/23.html"
             },
-
             {
-                "name": "Mohit Jain",
+                "name": "Utsav Garg",
                 "pos": "ExeCom",
-
-                "img": "/people/MohitJain.png",
+                "img": "/people/x/UtsavGarg.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -320,10 +364,9 @@
                 "a": "./members/24.html"
             },
             {
-                "name": "Amolika Bansal",
+                "name": "Abhishek",
                 "pos": "ExeCom",
-
-                "img": "/people/Amolika.png",
+                "img": "/people/x/AbhishekIIITD.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -333,10 +376,9 @@
                 "a": "./members/25.html"
             },
             {
-                "name": "Sunishka Sharma",
+                "name": "Milind Jain",
                 "pos": "ExeCom",
-
-                "img": "/people/Sunishka sharma.jpeg",
+                "img": "/people/x/MilindJain.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -346,10 +388,9 @@
                 "a": "./members/26.html"
             },
             {
-                "name": "Agamdeep Singh",
+                "name": "Aditya Dahiya",
                 "pos": "ExeCom",
-
-                "img": "/people/avatar.png",
+                "img": "/people/x/AdityaDahiya.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -359,10 +400,9 @@
                 "a": "./members/27.html"
             },
             {
-                "name": "Alvin Joseph Ambooken",
+                "name": "Amil Bhagat",
                 "pos": "ExeCom",
-
-                "img": "/people/Alvin.jpg",
+                "img": "/people/x/AmilBhagat.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -372,10 +412,9 @@
                 "a": "./members/28.html"
             },
             {
-                "name": "Harshit Choudhary",
+                "name": "Kanishk Goel",
                 "pos": "ExeCom",
-
-                "img": "/people/Harshit.jpg",
+                "img": "/people/x/KanishkGoel.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -384,12 +423,10 @@
                 "desc": "lorem",
                 "a": "./members/29.html"
             },
-
             {
-                "name": "Anjali",
+                "name": "Tony Thomas",
                 "pos": "ExeCom",
-
-                "img": "/people/Anjali.jpg",
+                "img": "/people/x/TonyThomas.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -399,10 +436,9 @@
                 "a": "./members/30.html"
             },
             {
-                "name": "Arnav Goel",
+                "name": "Ayush Srivastava",
                 "pos": "ExeCom",
-
-                "img": "/people/ArnavGoel.jpg",
+                "img": "/people/x/AyushSrivastava.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -412,10 +448,9 @@
                 "a": "./members/31.html"
             },
             {
-                "name": "Arya Abhisri",
+                "name": "Nishi Ninawat",
                 "pos": "ExeCom",
-
-                "img": "/people/arya.jpeg",
+                "img": "/people/avatar.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -425,10 +460,9 @@
                 "a": "./members/32.html"
             },
             {
-                "name": "Charvi Jindal",
+                "name": "Priyash Shah",
                 "pos": "ExeCom",
-
-                "img": "/people/Charvi Jindal.jpg",
+                "img": "/people/x/PriyashShah.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -438,10 +472,9 @@
                 "a": "./members/33.html"
             },
             {
-                "name": "Devansh Tripathi",
+                "name": "Utkarsh Venaik",
                 "pos": "ExeCom",
-
-                "img": "/people/Devansh.jpg",
+                "img": "/people/x/UtkarshVenaik.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -450,12 +483,10 @@
                 "desc": "lorem",
                 "a": "./members/34.html"
             },
-
             {
-                "name": "Ishita Sindhwani",
+                "name": "Aarav Mathur",
                 "pos": "ExeCom",
-
-                "img": "/people/avatar.png",
+                "img": "/people/x/AaravMathur.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -464,12 +495,10 @@
                 "desc": "lorem",
                 "a": "./members/35.html"
             },
-
             {
-                "name": "Jayan Pahuja",
+                "name": "Aditi Sharma",
                 "pos": "ExeCom",
-
-                "img": "/people/Jayan.jpg",
+                "img": "/people/x/AditiSharma.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -479,10 +508,9 @@
                 "a": "./members/36.html"
             },
             {
-                "name": "K S Shyama Sastha",
+                "name": "Adya Aggarwal",
                 "pos": "ExeCom",
-
-                "img": "/people/sastha.jpeg",
+                "img": "/people/x/AdyaAggarwal.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -492,10 +520,9 @@
                 "a": "./members/37.html"
             },
             {
-                "name": "Kartikye Prasad",
+                "name": "Akshit Gupta",
                 "pos": "ExeCom",
-
-                "img": "/people/Kartikye_Prasad.jpg",
+                "img": "/people/x/AkshitGupta.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -504,12 +531,10 @@
                 "desc": "lorem",
                 "a": "./members/38.html"
             },
-
             {
-                "name": "Medha Hira",
+                "name": "Chahat Ahuja",
                 "pos": "ExeCom",
-
-                "img": "/people/medha.png",
+                "img": "/people/x/ChahatAhuja.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -519,10 +544,9 @@
                 "a": "./members/39.html"
             },
             {
-                "name": "Mehul Arora",
+                "name": "Dhruv Jain",
                 "pos": "ExeCom",
-
-                "img": "/people/MehulArora.jpeg",
+                "img": "/people/x/DhruvJain.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -532,10 +556,9 @@
                 "a": "./members/40.html"
             },
             {
-                "name": "Mrinal Anand",
+                "name": "Nishant Singh",
                 "pos": "ExeCom",
-
-                "img": "/people/Mrinal_Anand.jpg",
+                "img": "/people/x/NishantSingh.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -545,10 +568,9 @@
                 "a": "./members/41.html"
             },
             {
-                "name": "Neelabh Kumar Srivastava",
+                "name": "Nishchaya Roy",
                 "pos": "ExeCom",
-
-                "img": "/people/Neelabh.jpg",
+                "img": "/people/x/NishchayaRoy.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -558,10 +580,9 @@
                 "a": "./members/42.html"
             },
             {
-                "name": "Nishi Ninawat",
+                "name": "Nishita Lohana",
                 "pos": "ExeCom",
-
-                "img": "/people/Nishi.jpg",
+                "img": "/people/x/NishitaBharatLohana.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -571,10 +592,9 @@
                 "a": "./members/43.html"
             },
             {
-                "name": "Pragyan Yadav",
+                "name": "Prabal Minotra",
                 "pos": "ExeCom",
-
-                "img": "/people/Pragyan.jpg",
+                "img": "/people/x/PrabalMinotra.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -584,10 +604,9 @@
                 "a": "./members/44.html"
             },
             {
-                "name": "Prashasti Gupta",
+                "name": "Rishima Chadha",
                 "pos": "ExeCom",
-
-                "img": "/people/Prashasti.jpeg",
+                "img": "/people/x/RishimaChadha.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -597,10 +616,9 @@
                 "a": "./members/45.html"
             },
             {
-                "name": "Prasun Pratik",
+                "name": "Shaurya Bajaj",
                 "pos": "ExeCom",
-
-                "img": "/people/Prasun.jpeg",
+                "img": "/people/x/ShauryaBajaj.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -609,12 +627,10 @@
                 "desc": "lorem",
                 "a": "./members/46.html"
             },
-
             {
-                "name": "Sameer Gupta",
+                "name": "Shubham Gupta",
                 "pos": "ExeCom",
-
-                "img": "/people/Sameer.jpeg",
+                "img": "/people/x/ShubhamGuptaIIITD.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -624,10 +640,9 @@
                 "a": "./members/47.html"
             },
             {
-                "name": "Shashank Singh",
+                "name": "Sidhartha Garg",
                 "pos": "ExeCom",
-
-                "img": "/people/Shashank.jpg",
+                "img": "/people/x/SidharthaGarg.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -636,12 +651,10 @@
                 "desc": "lorem",
                 "a": "./members/48.html"
             },
-
             {
-                "name": "Udbhav Varma",
+                "name": "Tanmay Singhal",
                 "pos": "ExeCom",
-
-                "img": "/people/Udbhav.jpg",
+                "img": "/people/avatar.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -651,10 +664,21 @@
                 "a": "./members/49.html"
             },
             {
-                "name": "Utkarsh Venaik",
+                "name": "Shyama Sastha K S",
                 "pos": "ExeCom",
-
-                "img": "/people/Utkarsh Venaik.jpeg",
+                "img": "/people/avatar.png",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/50.html"
+            },
+            {
+                "name": "Kainat Yasmeen",
+                "pos": "ExeCom",
+                "img": "/people/avatar.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -665,14 +689,29 @@
             }
         ]
     },
-
+    {
+        "team": "Mentors",
+        "members": [
+            {
+                "name": "Niranjan Sundararajan",
+                "pos": "",
+                "img": "/people/avatar.png",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/51.html"
+            }
+        ]
+    },
     {
         "team": "Distinguished Alumni",
         "members": [
             {
                 "name": "Prakhar Prasad",
                 "pos": "Product Design Intern @ Upstox",
-
                 "img": "/people/Prakhar.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -685,7 +724,6 @@
             {
                 "name": "Garmit Pant",
                 "pos": "EDG Intern @ Mathworks",
-
                 "img": "/people/Garmit.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -698,7 +736,6 @@
             {
                 "name": "Ansh Arora",
                 "pos": "SWE Intern @ Microsoft",
-
                 "img": "/people/ansh.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -711,7 +748,6 @@
             {
                 "name": "Meetakshi Setiya",
                 "pos": "SWE Intern @ Microsoft",
-
                 "img": "/people/Meetakshi Setiya.png",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -724,7 +760,6 @@
             {
                 "name": "Sachleen Kaur",
                 "pos": "SWE Intern @ Google",
-
                 "img": "/people/sachleen.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -737,7 +772,6 @@
             {
                 "name": "Kevin Paul",
                 "pos": "SWE Intern @ Google",
-
                 "img": "/people/kevin.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -750,7 +784,6 @@
             {
                 "name": "Rohan Dhar",
                 "pos": "SWE Intern @ Google",
-
                 "img": "/people/rohan.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -763,7 +796,6 @@
             {
                 "name": "Mihir Chaturvedi",
                 "pos": "Engineering Intern @ Sourcegraph",
-
                 "img": "/people/mihir.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -776,7 +808,6 @@
             {
                 "name": "Daksh Thapar",
                 "pos": "SDE @ Mathworks",
-
                 "img": "/people/daksh.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -789,7 +820,6 @@
             {
                 "name": "Gursimran Kaur",
                 "pos": "SDE @ DP World",
-
                 "img": "/people/Gursimran.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -802,7 +832,6 @@
             {
                 "name": "Shragvi Sidarth Jha",
                 "pos": "Engineering Intern @ Qualcomm",
-
                 "img": "/people/Sidarth.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -815,7 +844,6 @@
             {
                 "name": "Srijan Jain",
                 "pos": "Co-founder, respct.co",
-
                 "img": "/people/Srijan.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -828,7 +856,6 @@
             {
                 "name": "Saksham Gupta",
                 "pos": "Engineering Intern @ Qualcomm",
-
                 "img": "/people/Saksham.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -841,7 +868,6 @@
             {
                 "name": "Sarthak Chandra",
                 "pos": "Business Analyst Intern @ Panasonic",
-
                 "img": "/people/Sarthak.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -851,11 +877,9 @@
                 "desc": "lorem",
                 "a": "./members/64.html"
             },
-
             {
                 "name": "Neelabhro Roy",
                 "pos": "EECS @ KTH Royal Institute of Technology, Sweden",
-
                 "img": "/people/neelabhro.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -868,7 +892,6 @@
             {
                 "name": "Osaid Rehman Nasir",
                 "pos": "SDE @ LinkedIn",
-
                 "img": "/people/osaid.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -881,7 +904,6 @@
             {
                 "name": "Suryaansh Mata",
                 "pos": "Associate Engineer @ Mathworks",
-
                 "img": "/people/suryaansh.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -894,7 +916,6 @@
             {
                 "name": "Munish Thakral",
                 "pos": "SDE @ AMEX",
-
                 "img": "/people/munish.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -907,7 +928,6 @@
             {
                 "name": "Vaibhav Goel",
                 "pos": "MTS @ Adobe",
-
                 "img": "/people/vaibhav.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -920,7 +940,6 @@
             {
                 "name": "Utsav Rohilla",
                 "pos": "ACM ICPC World Finalist'19 & SDE @ Google",
-
                 "img": "/people/utsav.jpeg",
                 "social": {
                     "fb": "https://www.facebook.com/",

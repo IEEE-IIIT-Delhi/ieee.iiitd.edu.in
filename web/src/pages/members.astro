@@ -5,16 +5,14 @@ import memData from "../data/members.json";
 ---
 
 <Layout title="Members">
-    <section id="members" class="md:min-h-screen">
-        <div class="container mx-auto">
-            <div class="flex flex-col gap-x-28 mt-32 mb-24 md:my-24">
-                <h1
-                    class="fancyMembers heading text-5xl md:text-7xl font-bold mt-10"
-                >
-                    members
-                </h1>
-                {memData.map((team) => <MemberSection team={team} />)}
-            </div>
-        </div>
-    </section>
+  <section id="members" class="md:min-h-screen">
+    <div class="container mx-auto">
+      <div class="flex flex-col gap-x-28 mt-32 mb-24 md:my-24">
+        <h1 class="fancyMembers heading text-5xl md:text-7xl font-bold mt-10">
+          members
+        </h1>
+        {memData.map((team) => <MemberSection team={team} />)}
+      </div>
+    </div>
+  </section>
 </Layout>
