@@ -37,6 +37,18 @@
                 },
                 "desc": "lorem",
                 "a": "./members/3.html"
+            },
+            {
+                "name": "Dr. Ranjitha Prasad",
+                "pos": "SigProSoc Faculty Mentor",
+                "img": "/people/ranjitha.jpg",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/3.html"
             }
         ]
     },
