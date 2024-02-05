@@ -94,7 +94,7 @@
             {
                 "name": "Somay Jalan",
                 "pos": "Treasurer",
-                "img": "/people/somay.jpg",
+                "img": "/people/core/somay.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
                     "tw": "https://twitter.com/",
@@ -275,20 +275,8 @@
         "team": "Signal Processing Society",
         "members": [
             {
-                "name": "Siddhant Rai Viksit",
-                "pos": "Chairperson",
-                "img": "/people/sps/SiddhantRaiViksit.jpg",
-                "social": {
-                    "fb": "https://www.facebook.com/",
-                    "tw": "https://twitter.com/",
-                    "wb": "#"
-                },
-                "desc": "lorem",
-                "a": "./members/17.html"
-            },
-            {
                 "name": "Krishna Ayyagari",
-                "pos": "Vice-Chairperson",
+                "pos": "Chairperson",
                 "img": "/people/sps/KrishnaAyyagari.jpg",
                 "social": {
                     "fb": "https://www.facebook.com/",
@@ -297,6 +285,18 @@
                 },
                 "desc": "lorem",
                 "a": "./members/18.html"
+            },
+            {
+                "name": "Siddhant Rai Viksit",
+                "pos": "Vice-Chairperson",
+                "img": "/people/sps/SiddhantRaiViksit.jpg",
+                "social": {
+                    "fb": "https://www.facebook.com/",
+                    "tw": "https://twitter.com/",
+                    "wb": "#"
+                },
+                "desc": "lorem",
+                "a": "./members/17.html"
             },
             {
                 "name": "Shobhit Pandey",
